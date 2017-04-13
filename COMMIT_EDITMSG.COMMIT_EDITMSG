@@ -1,0 +1,6017 @@
+avala
+
+# --------------
+# Please enter the commit message for your changes. Everything below
+# this paragraph is ignored, and an empty message aborts the commit.
+# Just close the window to accept your message.
+diff --git a/avala.html b/avala.html
+new file mode 100644
+index 0000000..5dfce14
+--- /dev/null
++++ b/avala.html
+@@ -0,0 +1,363 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++	<meta charset="UTF-8">
++	<title>薇拉摄影</title>
++	<link rel="stylesheet" href="css/base.css" type="text/css">
++	<link rel="stylesheet" href="css/style.css" type="text/css">
++</head>
++<body>
++<!-- header区 -->
++	<div class="header">
++		<div class="center-box clearfix">
++			<h1 class="fl"><a href="">
++				<img src="img/logo01.jpg">
++			</a></h1>
++			<ul class="fl clearfix">
++				<li style="border-left: none;"><a href="page2.html">快速了解薇拉</a></li>
++				<li class="style-p"><a href="">拍摄风格选择</a>
++					<ul class="style-f">
++						<li><a href="special.html">薇拉@漢</a></li>
++						<li><a href="fasion.html">时尚•态度</a></li>
++						<li><a href="">高端定制</a></li>
++						<li><a href="">薇拉女神</a></li>
++					</ul>
++
++				</li>
++				<li class="style-p"><a href="">客片大赏</a>
++					<ul class="style-f">
++						<li><a href="update.html">每日更新</a></li>
++						<li><a href="guest.html">客片大赏</a></li>
++					</ul>
++				</li>
++				<li><a href="">资询档期</a></li>
++				<li><a href="">查找店面</a></li>
++				<li style="border-right: none;"><a href="">YOU</a></li>
++			</ul>
++			<div class="location">
++				<ul class="clearfix">
++					<li><a href="">武汉</a></li>
++					<li><a href="">深圳</a></li>
++					<li><a href="">三亚</a></li>
++				</ul>
++			</div>
++		</div>
++	</div>
++	<!-- banner区 -->
++	<div><a href=""><img src="img/banner.jpg" alt=""></a>
++		<div class="cb clearfix">
++			<div class="bf fl">
++				<p>选择城市</p>
++				<h1 style="margin-left:18px;"><a href="" style="color:#000;">武汉</a>
++				<a href="" style="color:#000;">深圳</a>
++				<a href="" style="color:#000;" >三亚</a>
++				<a href="">上海</a></h1>
++				<p>拍摄时间</p>
++				<p><span>3个月内</span><span>6个月内</span><span>9个月内</span> </p>
++				<p>拍摄风格</p>
++				<h2><input type="checkbox"> @漢 <input type="checkbox"> 视觉元素 <input type="checkbox"> 幸福纪实 <input type="checkbox"> 中国新娘 <input type="checkbox"> 复古风潮 <input type="checkbox"> 薇拉女神<input type="checkbox"> 全球旅拍</h2>
++				<p><input type="text" placeholder="姓名">&nbsp<input type="text" placeholder="手机">&nbsp<input type="text" placeholder="微信/qq"></p>
++				<p style="color:#f00;">预约可领取大礼包</p>
++				<p><a href=""><span>获取优惠</span></a><a href=""><span style="background: yellow; color:#000;">在线咨询</span></a></p>
++			</div>
++			<div class="br fr">
++				<img src="img3/00.jpg" alt="" style="opacity: 0.2;">
++			</div>
++		</div>
++	</div>
++	<!-- 轮播区 -->
++	<div class="recycle clearfix">
++		<div class="num-list fl clearfix">
++			<div class="mc fl"><a href="">RECENT SHOWCASE</a></div>
++			<ul class="clearfix fl">
++				<li><a href="#1">1</a></li>
++				<li><a href="#2">2</a></li>
++				<li><a href="#3">3</a></li>
++				<li><a href="#4">4</a></li>
++				<li><a href="#5">5</a></li>
++			</ul>
++			<div class="roman ">
++					<img src="img/01.jpg" alt="" id="1">
++					<img src="img/02.jpg" alt="" id="2">
++					<img src="img/03.jpg" alt="" id="3">
++					<img src="img/04.jpg" alt="" id="4">
++					<img src="img/05.jpg" alt="" id="5">
++			</div>
++		</div>
++	</div>
++	<!-- 内容展示区 -->
++	<div class="show clearfix">
++		<div class="pic fl "><a href=""><img src="img/11.jpg" alt="" height="800"></a>
++		<span class="sqlf"></span> 
++		</div>
++	    <div class="text fr">
++			<h3>PHOTOGRAPHY  EXHIBITION <span>拍摄风格选择&lt at瑾 &gt</span></h3>
++			<h1>在武汉，与你共赏一场化妆@摄影的美学革命</h1>
++			<p>薇拉摄影用万千风格来阐述属于你的幸福美好</p>
++			<ul class="style-list clearfix">
++				<li><a href="">
++					<p>MIX CRASH</p>
++					<p>视觉元素系列</p>
++				</a></li>
++				<li><a href="">
++					<p>TRADITIONAL</p>
++					<p>中国新娘系列系列</p>
++				</a></li>
++				<li><a href="">
++					<p>KOREA</p>
++					<p>“韩”系列</p>
++				</a></li>
++				<li><a href="">
++					<p>DOCIMENTRAY</p>
++					<p>幸福纪实系列</p>
++				</a></li>
++				<li><a href="">
++					<p>HOKKAIDO</p>
++					<p>北海斋系列</p>
++				</a></li>
++				<li><a href="">
++					<p>RETRO</p>
++					<p>复古风潮系列</p>
++				</a></li>
++			</ul>
++		</div> 
++	</div>
++	<div class="showt clearfix">
++	    <div class="text fl">
++			<h3>PHOTOGRAPHY  EXHIBITION <span>拍摄风格选择&lt 时尚 · 态度 &gt</span></h3>
++			<h1>特立独行&lt 时尚态度 &gt独立， 且淋漓尽致。</h1>
++			<p>薇拉摄影持续提升的审美取向。</p>
++			<ul class="style-list clearfix">
++				<li><a href="">
++					<p>MAGAZINE</p>
++					<p>风尚婚纱杂志样片</p>
++				</a></li>
++				<li><a href="">
++					<p>MAKEUP</p>
++					<p>全新概念妆面样片</p>
++				</a></li>
++				<li><a href="">
++					<p>WEDDING GOWN</p>
++					<p>婚纱礼服定制丽尚</p>
++				</a></li>
++				<li><a href="">
++					<p>MAGAZINE</p>
++					<p>英尚杂志样片</p>
++				</a></li>	
++			</ul>
++			<div class="style">
++				<ul class="clearfix">
++					<li style="transform: translateY(12px);">时</li>
++					<li style="transform: translateY(-22px);">尚</li>
++					<li style="transform: translateY(15px);">态</li>
++					<li style="transform: translateY(-18px);">度</li>
++				</ul>
++			</div>
++		</div> 
++		<div class="pic fr " style="transform: translateY(-24px);"><a href="" ><img src="img/12.jpeg" alt="" height="800"></a>
++		<span class="sqls"></span> 
++		</div>
++	</div>
++	<div class="admire clearfix">
++		<div class="title fl">
++			<img src="img/logo02.jpg" alt="">
++			<img src="img/dd.jpg" width="1500" height="30">
++		</div>
++		<div class="ad-content fl">
++			<ul class="clearfix">
++				<li><a href="">
++					<div class="text-f fl">
++						<h1>美式小教堂</h1>
++						<span>俯拾心动瞬间</span>
++						<i class="sjt"></i>
++						<p>在慵懒的午后泡上一杯香茗，捧上一本书半躺在一张舒适的沙发上，确是在静静的发呆，呆呆的想着心中的那个他...  </p>
++						<p style="color:#f00; line-height: 15px;margin-left: 80px;">6月7号</p>
++					</div>
++					<img src="img/22.jpg" >
++				</a></li>
++				<li><a href="">
++					<div class="text-f fl">
++						<h1>幸福系 马卡龙</h1>
++						<span>俯拾心动瞬间</span>
++						<i class="sjt"></i>
++						<p>阳光好美，突然明白思念像无形红线。想象着对方开心和快乐的神情，不知为何，似乎想着惦着，连自己也跟着开心快乐起来。</p>
++						<p style="color:#f00; line-height: 15px;margin-left: 80px;">6月7号</p>
++					</div>
++					<img src="img/23.jpg">
++				</a></li>
++				<li><a href="">
++					<div class="text-f fl">
++						<h1>蕾丝窗帘餐厅</h1>
++						<span>俯拾心动瞬间</span>
++						<i class="sjt"></i>
++						<p>幸福只是简单的幸福，我已经很满足，也很知足。也会一辈子的陪伴在你的身边，与你细水长流 恩爱到老俯拾心动瞬间。 </p>
++						<p style="color:#f00; line-height: 15px;margin-left: 80px;">6月7号</p>
++					</div>
++					<img src="img/24.jpg" >
++				</a></li>
++				<li><a href="">
++					<div class="text-f fl">
++						<h1>海角七号</h1>
++						<span>俯拾心动瞬间</span>
++						<i class="sjt"></i>
++						<p>喜欢在无人问津的清晨或午后，掬一杯浓醇的咖啡，执笔把心情作为起点。任时光流转俯拾每一次心动感动的瞬间。</p>
++						<p style="color:#f00; line-height: 15px;margin-left: 80px;">6月7号</p>
++					</div>
++					<img src="img/21.jpg" >
++				</a></li>
++			</ul>
++		</div>
++	</div>
++	<!-- 旋转图片区 -->
++	<div class="major">
++		<ul class="clearfix">
++			<li><a href=""><img src="img/31.jpg" alt="">
++				<div><p>CUSTOMIZATION</p>
++				<p>个性化体现专属感</p>
++				</div>
++			</a></li>
++			<li><a href=""><img src="img/32.jpg" alt="">
++				<div><p>CUSTOMIZATION</p>
++				<p>个性化体现专属感</p>
++				</div>
++			</a></li>
++			<li><a href=""><img src="img/33.jpg" alt="">
++				<div><p>CUSTOMIZATION</p>
++				<p>个性化体现专属感</p>
++				</div>
++			</a></li>
++		</ul>
++	</div>
++	<!-- 女神区 -->
++	<div class="ns-style">
++		<div class="god">
++			<img src="img/wz2.png" alt="">
++			<a href="">
++				<p>AVIVA  GODDESS</p>
++				<p>薇拉女神样片系列</p>
++			</a>
++		</div>
++	</div>
++	<!-- 每日客片 -->
++	<div class="view">
++		<div class="view-con">
++			<p style="line-height: 300px;">
++				<span><i>3</i>  座城</span>
++				<span><i>6</i>  年</span>
++				<span style="border-right: none;"><i>14</i>  店</span>
++				<span id="day"><b>每日客片</b>持续更新</span>
++			</p>
++			<div class="number">
++				<b>5,906,651</b>
++				<span>张</span>
++			</div>
++			<div class="every">每天，刷新幸福指数上限</div>
++			<div class="look"><a href="">每日客片</a></div>
++		</div>
++	</div>
++	<!-- 你心目中的薇拉 -->
++	<div class="your">
++		<a href=""><img src="img/page_you.jpg" alt=""></a>
++	</div>
++	<!-- footer区 -->
++	<div class="footer">
++		<div class="center-box content">
++			<div class="nav">
++			<img src="img/link.png" alt="">
++			</div>
++			<div class="list">
++				<ul class="clearfix">
++					<li>
++						<a href=""><img src="img/foot1.png" alt=""></a>
++						<ul class="list-in">
++							<li><a href="">薇拉摄影研创中心</a></li>
++							<li><a href="">薇拉摄影高端客户服务中心</a></li>
++							<li><a href="">薇拉皇后高端礼服馆</a></li>
++							<li><a href="">薇拉上善高端婚礼造型定制馆</a></li>
++						</ul>
++					</li>
++					<li>
++						<a href=""><img src="img/foot2.png" alt=""></a>
++						<ul class="list-in">
++							<li><a href="">薇拉品牌介绍</a></li>
++							<li><a href="">薇拉三镇十二店布局一览</a></li>
++							<li><a href=""><font color="#ffca00">薇拉摄影人才计划</font></a></li>
++							<li><a href="">了解你会爱上薇拉的理由</a></li>
++							<li><a href="">免责声明及法律条款</a></li>
++
++						</ul>
++					</li>
++					<li>
++						<a href=""><img src="img/foot3.png" alt=""></a>
++						<ul class="list-in">
++							<li><a href="">客片大赏</a></li>
++							<li><a href=""><font color="#ffca00">每日客片更新</font></a></li>
++							<li><a href="">薇拉@漢系列作品</a></li>
++							<li><a href="">时尚态度系列作品</a></li>
++							<li><a href="">高端定制系列作品</a></li>
++							<li><a href="">薇拉女神系列</a></li>
++						</ul>
++					</li>
++					<li>
++						<a href=""><img src="img/foot4.png" alt=""></a>
++						<ul class="list-in">
++							<li><a href="">最新新闻公告</a></li>
++							<li><a href="">活动进行时……</a></li>
++							<li><a href="">薇拉印花</a></li>
++							<li><a href="">WOW！MAGAZINE薇拉画报</a></li>
++						</ul>
++					</li>
++				</ul>
++			</div>
++			<div class="icon">
++				<a href="" style="background: url(img/footer_icon.png) 0 0 no-repeat;width: 120px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -140px 0 no-repeat;width: 110px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -280px 0 no-repeat;width: 110px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -400px 0 no-repeat;width: 140px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -550px 0 no-repeat;width: 160px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -720px 0 no-repeat;width: 110px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -860px 0 no-repeat;width: 150px;"></a>
++			</div>
++			<div class="last clearfix">
++				<div class="last-l fl">
++					<a href=""><img src="img/61.jpg" alt=""></a>
++					<a href=""><img src="img/62.jpg" alt=""></a>
++					<a href=""><img src="img/63.jpg" alt=""></a>
++					<a href=""><img src="img/64.jpg" alt=""></a>
++					<a href=""><img src="img/65.jpg" alt=""></a>
++				</div>
++				<div class="last-r fr">
++					<p>AVIVA 及 薇拉摄影均为注册商标，薇拉摄影网站界面设计及程序设计均以申请国家知识产权及著作权。未经允许不得转载抄袭，薇拉摄影对此保留法律诉讼的权利。</p>
++					<p>AVIVA AND AVIVA PHOTO ARE REGISTERED TRADEMARKS PHOTOGRAPHY, OUR WEBSITE INTERFACE DESIGN AND PROGRAMMING ARE APPLIED FOR NATIONAL INTELLECTUAL PROPERTY RIGHTS AND COPYRIGHTS. SHALL NOT BE REPRODUCED WITHOUT PERMISSION PLAGIARISM, WHICH WE KEEP THE RIGHT TO LEGAL PROCEEDINGS</p>
++					<p>视觉设计 & 网站建设 
++						<a href="">衍艺广告</a>
++						<a href=""><img src="img/logo03.png" alt=""></a>版权所有：武汉市汉阳区薇拉摄影店
++					</p>
++				</div>
++			</div>
++		</div>
++	</div>
++	<!-- 固定区 -->
++	<div class="fixed  clearfix">
++		<div class="ff fl">
++			<a><img src="img/btn06.png" alt="">
++			<span>400-0825-818</span></a>
++		</div>
++		<div class="fj fl">
++			<a href="">首页</a>
++			<a href="">拍摄风格选择</a>
++			<a href="">客片大赏</a>
++			<a href="">YOU</a>
++			<a href="">咨询档期</a>
++		</div>
++		<div class="fm fr">
++			<a href="" style="position: relative;top: -1px">
++				<img src="img/kf.gif" height="54">
++			</a>
++			<a href="" id="#top">
++				<img src="img/back.png" alt="">
++			</a>
++		</div>
++	</div>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/css/base.css b/css/base.css
+new file mode 100644
+index 0000000..87d2c9e
+--- /dev/null
++++ b/css/base.css
+@@ -0,0 +1,128 @@
++@charset "utf-8"; 
++/* 
++@名称: base 
++@功能: 重设浏览器默认样式 
++*/ 
++/* 防止用户自定义背景颜色对网页的影响，添加让用户可以自定义字体 */ 
++html { 
++color:black; 
++background:white; 
++} 
++/* 内外边距通常让各个浏览器样式的表现位置不同 */ 
++body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section { 
++margin:0; 
++padding:0; 
++} 
++/* 要注意表单元素并不继承父级 font 的问题 */ 
++body,button,input,select,textarea { 
++font:12px/1.5 Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif; 
++    -webkit-font-smoothing: antialiased;/*这个属性可以使页面上的字体抗锯齿,使用后字体看起来会更清晰舒服*/
++} 
++input,select,textarea { 
++font-size:100%; 
++} 
++/* 去掉各Table cell 的边距并让其边重合 */ 
++table { 
++border-collapse:collapse; 
++border-spacing:0; 
++} 
++/* IE bug fixed: th 不继承 text-align*/ 
++th { 
++text-align:inherit; 
++} 
++/* 去除默认边框 */ 
++fieldset,img { 
++border:none; 
++} 
++/* ie6 7 8(q) bug 显示为行内表现 */ 
++iframe { 
++display:block; 
++} 
++/* 去掉 firefox 下此元素的边框 */ 
++abbr,acronym { 
++border:none; 
++font-variant:normal; 
++} 
++/* 一致的 del 样式 */ 
++del { 
++text-decoration:line-through; 
++} 
++address,caption,cite,code,dfn,em,th,var { 
++font-style:normal; 
++font-weight:500; 
++} 
++/* 去掉列表前的标识, li 会继承 */ 
++ol,ul { 
++list-style:none; 
++} 
++/* 对齐是排版最重要的因素, 别让什么都居中 */ 
++caption,th { 
++text-align:left; 
++} 
++/* 来自yahoo, 让标题都自定义, 适应多个系统应用 */ 
++h1,h2,h3,h4,h5,h6 { 
++/*font-size:100%; 
++font-weight:500; */
++} 
++q:before,q:after { 
++content:''; 
++} 
++/* 统一上标和下标 */ 
++sub, sup { 
++font-size:75%; 
++line-height:0; 
++position:relative; 
++vertical-align:baseline; 
++} 
++sup { 
++top:-0.5em; 
++} 
++sub { 
++bottom:-0.25em; 
++} 
++/* 让链接在 hover 状态下显示下划线 */ 
++a:hover { 
++/*text-decoration:underline;*/ 
++} 
++/* 默认不显示下划线，保持页面简洁 */ 
++ins,a { 
++text-decoration:none; 
++} 
++/* IE6,7焦点点状线去除 */ 
++a:focus,*:focus { 
++outline:none; 
++} 
++/* 清除浮动 */ 
++.clearfix:before,.clearfix:after { 
++content:""; 
++display:table; 
++} 
++.clearfix:after { 
++clear:both; 
++overflow:hidden; 
++} 
++.clearfix { 
++zoom:1; /* for IE6 IE7 */ 
++} 
++.clear{ 
++clear:both; 
++display:block; 
++overflow:hidden; 
++} 
++/* 设置显示和隐藏, 通常用来与 JS 配合 */ 
++.hide { 
++display:none !important; 
++visibility:hidden; 
++} 
++.block { 
++display:block !important; 
++} 
++/* 设置内联, 减少浮动带来的bug */ 
++.fl { 
++float:left; 
++display:inline; 
++} 
++.fr { 
++float:right; 
++display:inline; 
++} 
+\ No newline at end of file
+diff --git a/css/fashion.css b/css/fashion.css
+new file mode 100644
+index 0000000..fe127e7
+--- /dev/null
++++ b/css/fashion.css
+@@ -0,0 +1,484 @@
++.header{
++	height: 100px;
++	background-color: #da0023;
++}
++.center-box{
++	width: 1600px;
++	margin:0 auto;
++}
++.center-box>h1{
++	margin-top: 30px;
++}
++.center-box>ul{
++	margin-left: 120px;
++}
++.center-box>ul>li{
++	float: left;
++	width: 136px;
++	height: 80px;
++	line-height: 80px;
++	text-align: center;
++	border:1px solid #a90007;
++	border-radius: 25%;
++	box-shadow: 1px 2px 3px #a90007;
++	border-bottom: none;
++	border-top: none;
++	margin-top: 10px;
++}
++.center-box>ul>.style-p{
++	position: relative;
++}
++.center-box>ul>.style-p:hover{
++	background-color: #000;
++}
++.center-box>ul>.style-p>ul{
++	display: none;
++	width: 120px;
++	height: 160px;
++	position: absolute;
++	left:8px;
++	top:70px;
++}
++.center-box>ul>.style-p:hover .style-f{
++	display:block;
++}
++.center-box>ul>.style-p:hover:after{
++	content:'';
++	width: 0;
++	height: 0;
++	border: 5px solid transparent;
++	border-top-color: #fff;
++	position: absolute;
++	left: 60px;
++	bottom: 0;
++}
++.center-box>ul>.style-p>ul>li{
++	background-color: #000;
++	width: 100%;
++	height: 50px;
++	text-align: center;
++}
++.center-box>ul>.style-p>ul>li>a{
++	display: block;
++	width: 110px;
++	font-size: 16px;
++	color: #fff;
++	line-height: 50px;
++}
++.center-box>ul>.style-p>ul>li:hover{
++	background: #da0023;
++}
++.center-box>ul>li>a{
++	display: block;
++	font-size: 18px;
++	color:#fff;
++	line-height: 65px;
++}
++.center-box>ul>li>a:hover{
++	color:yellow;
++}
++.location{
++	float: left;
++	width: 350px;
++	height: 100px;
++	background: #353535;
++}
++.location>ul{
++	margin:30px 50px;
++}
++.location>ul>li{
++	width: 80px;
++	height: 40px;
++	float:left;
++	background-color: rgba(0,0,0,.5);
++	text-align: center;
++	line-height: 40px;
++}
++.location>ul>li:hover{
++	background-color:#fff; 
++}
++.location>ul>li>a{
++	display: block;
++	color:#fff;
++	font-size: 16px;
++}
++.location>ul>li>a:hover{
++	color:#000;
++}
++/*轮播图及文字区*/
++.content-box{
++	width: 1600px;
++	margin:0 auto;
++}
++.top{
++	margin-top: 120px;
++}
++.top-left{
++	max-width: 636px;
++	margin-left:20px;
++}
++.wz{
++	margin:25px auto;
++	border-bottom: 1px solid #dedede;	
++}
++.wz>p,.game>p,.pha>p{
++	font-size: 15px;
++	line-height: 22px;
++	color: #777779;
++	margin:15px auto;
++}
++.game{
++	margin:25px auto;
++	border-bottom: 1px solid #dedede;
++	padding-bottom: 10px;
++}
++.game>h1>span{
++	color:#c40000;
++}
++.pha>p>a:nth-child(1){
++	color:red;
++}
++.pha>p>a:nth-child(2){
++	color:#8ba982;
++}
++.pha>p>a:nth-child(3){
++	color:#666;
++}
++.pha>p>a:nth-child(4){
++	color:green;
++}
++.pha>p>a:nth-child(5){
++	color:blue;
++}
++.pha>p>a:nth-child(6){
++	color:pink;
++}
++.pha>p>a:nth-child(7){
++	color:orange;
++}
++.contact>.cf>p>a{
++	display: block;
++	width: 458px;
++	font-size: 16px;
++	color:#747474;
++	line-height: 48px;
++	text-align: center;
++	border:1px solid #ccc;
++	margin-bottom: 13px;
++}
++.contact>.cf>p>a:hover{
++	border-color:#000;
++}
++.at>p{
++	font-size: 12px;
++	line-height: 18px;
++	margin-bottom: 5px;
++	color:#797979;
++	margin-top: 10px;
++}
++.at>p:last-child{
++	color:#cacaca;
++	margin-top: 15px;
++}
++.top-right{
++	width: 800px;
++	height: 1096px;
++	position:relative;
++}
++.top-right>ul{
++	position: relative;
++}
++.top-right>ul>li{
++	position: absolute;
++	left:0;
++	top:0;
++}
++.top-right>ul>li>img{
++	width: 800px;
++	height: 1096px;
++}
++.top-right>.cicle{
++	position: absolute;
++	width: 120px;
++	height: 18px;
++	left:50%;
++	bottom:3px;
++	z-index: 2;
++	margin:0 auto;
++}
++.cicle>ul>li{
++	display: inline-block;
++	width: 10px;
++	height: 10px;
++	border:1px solid #fff;
++	border-radius:50%;
++	margin: 0 5px;
++}
++.cicle>ul>.active{
++	background-color:#f00;
++}
++/*作品展示区*/
++.work-show{
++	padding: 90px 0 18px;
++}
++.work-show>.wt>p{
++	height: 40px;
++	padding-left: 10px;
++}
++.work-show>.wt>p>span>a{
++	font-size: 14px;
++	font-weight: bold;
++	line-height: 20px;
++	color:#595a5c;
++}
++.work-show>.wt>.nav>p>span>a>span,.choice>p>span>a>span,.visit>p>span>a>span{
++	color:#156b11;
++}
++/*作品展示区*/
++.system{
++	margin-top: 10px;
++}
++/*.system>.pic>a:before{
++	content: '';
++    position: absolute;
++    top: 0;
++    left: 0;
++    z-index: 100;
++    width: 1600px;
++    height: 500px;
++    background: rgba(0,0,0,.4);     
++}
++.system>.pic>a:after{
++	content: '';
++    position: absolute;
++    top: 0;
++    bottom: 0;
++    z-index: 100;
++    width: 1600px;
++    height: 500px;
++    background: rgba(0,0,0,.4);    
++}*/
++.record>ul{
++	background: url(../image/bg4.jpg) left 20px no-repeat;
++	height: 120px;
++	padding-top: 20px;
++	overflow: hidden;
++}
++.record>ul>li{
++	float: left;
++	height: 120px;
++	padding-top: 40px;
++	text-align: center;
++}
++.record>ul>li:nth-child(1){
++	width: 226px;
++}
++.record>ul>li:nth-child(2){
++	text-align: left;
++	width: 700px;
++	padding:auto 15px;
++}
++.record>ul>li:nth-child(3){
++	width: 292px;
++}
++.record>ul>li:nth-child(4){
++	width: 318px;
++}
++
++.record>ul>li>a>p{
++	color:#6c6c6c;
++	line-height: 20px;
++	font-size: 16px;
++}
++.pagination{
++	display: block;
++	text-align: center;
++}
++/*咨询区*/
++.ask{
++	margin-top: 50px;
++}
++.ask>ul{
++	width: 1600px;
++	height: 108px;
++	margin:0 auto;
++	background: #f4f4f4;
++	overflow: hidden;
++}
++.ask>ul>li{
++	display: block;
++	float: left;
++	width: 382px;
++	padding-left: 70px;
++	height: 80px;
++	margin-top: 19px;
++	border-right: 1px solid #d6d6d6;
++	color:#000;
++}
++.ask>ul>li>div>img{
++	margin-top:15px;
++}
++.ask>ul>li>div>p{
++	max-width: 220px;
++}
++.ask>ul>li>.right{
++	margin-left: 20px;
++}
++.sj>a{
++	background: url(../imge/sj.png) left top no-repeat; 
++	width: 84px;
++	height: 30px;
++	display: block;
++	margin: 60px auto;
++}
++.sj>a:hover{
++	background: url(../imge/sj.png) right top no-repeat; 
++}
++/*你心目中的薇拉*/
++.your{
++	width: 100%;
++	height: 378px;
++	background-color: #dc504f;
++	margin-top: 50px;
++}
++.your>a{
++	display: block;
++	text-align: center;
++}
++/*footer区*/
++.footer{
++	background: #000;
++}
++.footer>.nav{
++	line-height:85px; 
++}
++.list>ul{
++	margin-left:180px;
++}
++.list>ul>li{
++	width: 290px;
++	float: left;
++	padding:0 14px;
++}
++.list-in>li{
++	width: 290px;
++	height: 40px;
++	border-bottom: 1px dotted #fff;
++}
++.list-in>li>a{
++	color:#707070;
++	line-height: 40px;
++	font-size: 14px;
++}
++.list-in>li>a:hover{
++	color: #f00;
++}
++.content{
++	padding-top: 95px;
++}
++/*icon区*/
++.footer>.content>.icon{
++	margin:50px auto;
++ 	line-height: 35px;
++ 	overflow: hidden;
++}
++.footer>.content>.icon>a{
++	float: left;
++	height: 35px;
++	margin:0 50px;
++}
++.footer>.content>.icon>a:nth-child(1):hover{
++	background: url(../img/footer_icon.png) 0 -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(2):hover{
++	background: url(../img/footer_icon.png) -140px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(3):hover{
++	background: url(../img/footer_icon.png) -280px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(4):hover{
++	background: url(../img/footer_icon.png) -400px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(5):hover{
++	background: url(../img/footer_icon.png) -550px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(6):hover{
++	background: url(../img/footer_icon.png) -720px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(7):hover{
++	background: url(../img/footer_icon.png) -860px -35px no-repeat;
++	width: 120px;
++}
++.last-l>a{
++	margin-right: 15px;
++}
++.last-r{
++	max-width: 750px;
++}
++.last-r>p{
++	display: block;
++	margin-bottom: 10px;
++}
++.last-r>p:nth-child(1){
++	line-height: 17px;
++	color:#ababab;
++}
++.last-r>p:nth-child(2){
++	line-height: 13px;
++	color:#515151;
++}
++.last-r>p:nth-child(3){
++	height: 18px;
++	line-height: 18px;
++	font-size: 12px;
++	color:#fff;
++	margin:70px auto;
++	text-align: right;
++}
++.last-r>p:nth-child(3)>a{
++	margin:0 10px ;
++	color:#fff;
++}
++/*固定区*/
++.fixed{
++	width: 100%;
++	height: 59px;
++	background: #da0023;
++	color:#fff;
++	position: fixed;
++	bottom: 0;
++	left:0;
++}
++.fixed>div{
++	line-height: 57px;
++}
++.fixed>.ff{
++	display: block;
++	margin: 10px 0 0 153px;
++}
++.fixed>.ff>a>span{
++	font-size: 18px;
++    margin-left: 20px
++}
++.fixed>.fj{
++	margin-left: 270px;
++}
++.fixed>.fj>a{
++	font-size:18px;
++	margin:0 20px; 
++	color:#fff;
++}
++.fixed>.fj>a:hover{
++	color:yellow;
++}
++
++.fixed>.fm>a{
++	margin-right: 77px;
++	vertical-align: top;
++}
+\ No newline at end of file
+diff --git a/css/guest.css b/css/guest.css
+new file mode 100644
+index 0000000..0c30815
+--- /dev/null
++++ b/css/guest.css
+@@ -0,0 +1,447 @@
++/*导航*/
++.header{
++	height: 100px;
++	background-color: #da0023;
++}
++.center-box{
++	width: 1600px;
++	margin:0 auto;
++}
++.center-box>h1{
++	margin-top: 30px;
++}
++.center-box>ul{
++	margin-left: 120px;
++}
++.center-box>ul>li{
++	float: left;
++	width: 136px;
++	height: 80px;
++	line-height: 80px;
++	text-align: center;
++	border:1px solid #a90007;
++	border-radius: 25%;
++	box-shadow: 1px 2px 3px #a90007;
++	border-bottom: none;
++	border-top: none;
++	margin-top: 10px;
++}
++.center-box>ul>.style-p{
++	position: relative;
++}
++.center-box>ul>.style-p:hover{
++	background-color: #000;
++}
++.center-box>ul>.style-p>ul{
++	display: none;
++	width: 120px;
++	height: 160px;
++	position: absolute;
++	left:8px;
++	top:70px;
++}
++.center-box>ul>.style-p:hover .style-f{
++	display:block;
++}
++.center-box>ul>.style-p:hover:after{
++	content:'';
++	width: 0;
++	height: 0;
++	border: 5px solid transparent;
++	border-top-color: #fff;
++	position: absolute;
++	left: 60px;
++	bottom: 0;
++}
++.center-box>ul>.style-p>ul>li{
++	background-color: #000;
++	width: 100%;
++	height: 50px;
++	text-align: center;
++}
++.center-box>ul>.style-p>ul>li>a{
++	display: block;
++	width: 110px;
++	font-size: 16px;
++	color: #fff;
++	line-height: 50px;
++}
++.center-box>ul>.style-p>ul>li:hover{
++	background: #da0023;
++}
++.center-box>ul>li>a{
++	display: block;
++	font-size: 18px;
++	color:#fff;
++	line-height: 65px;
++}
++.center-box>ul>li>a:hover{
++	color:yellow;
++}
++.location{
++	float: left;
++	width: 350px;
++	height: 100px;
++	background: #353535;
++}
++.location>ul{
++	margin:30px 50px;
++}
++.location>ul>li{
++	width: 80px;
++	height: 40px;
++	float:left;
++	background-color: rgba(0,0,0,.5);
++	text-align: center;
++	line-height: 40px;
++}
++.location>ul>li:hover{
++	background-color:#fff; 
++}
++.location>ul>li>a{
++	display: block;
++	color:#fff;
++	font-size: 16px;
++}
++.location>ul>li>a:hover{
++	color:#000;
++}
++/*轮播图及文字区*/
++.content-box{
++	width: 1600px;
++	margin:0 auto;
++}
++.top{
++	margin-top: 120px;
++}
++.top-left{
++	max-width: 636px;
++	margin-left:20px;
++}
++.wz{
++	margin:25px auto;
++	border-bottom: 1px solid #dedede;	
++}
++.wz>p,.game>p,.pha>p{
++	font-size: 15px;
++	line-height: 22px;
++	color: #777779;
++	margin:15px auto;
++}
++.game{
++	margin:25px auto;
++	border-bottom: 1px solid #dedede;
++	padding-bottom: 10px;
++}
++.game>h1>span{
++	color:#c40000;
++}
++.pha>p>a:nth-child(1){
++	color:red;
++}
++.pha>p>a:nth-child(2){
++	color:#8ba982;
++}
++.pha>p>a:nth-child(3){
++	color:#666;
++}
++.pha>p>a:nth-child(4){
++	color:green;
++}
++.pha>p>a:nth-child(5){
++	color:blue;
++}
++.pha>p>a:nth-child(6){
++	color:pink;
++}
++.pha>p>a:nth-child(7){
++	color:orange;
++}
++.contact>.cf>p>a{
++	display: block;
++	width: 458px;
++	font-size: 16px;
++	color:#747474;
++	line-height: 48px;
++	text-align: center;
++	border:1px solid #ccc;
++	margin-bottom: 13px;
++}
++.contact>.cf>p>a:hover{
++	border-color:#000;
++}
++.at>p{
++	font-size: 12px;
++	line-height: 18px;
++	margin-bottom: 5px;
++	color:#797979;
++	margin-top: 10px;
++}
++.at>p:last-child{
++	color:#cacaca;
++	margin-top: 15px;
++}
++.top-right{
++	width: 800px;
++	height: 1096px;
++	position:relative;
++}
++.top-right>ul{
++	position: relative;
++}
++.top-right>ul>li{
++	position: absolute;
++	left:0;
++	top:0;
++}
++.top-right>ul>li>img{
++	width: 800px;
++	height: 1096px;
++}
++.top-right>.cicle{
++	position: absolute;
++	width: 120px;
++	height: 18px;
++	left:50%;
++	bottom:3px;
++	z-index: 2;
++	margin:0 auto;
++}
++.cicle>ul>li{
++	display: inline-block;
++	width: 10px;
++	height: 10px;
++	border:1px solid #fff;
++	border-radius:50%;
++	margin: 0 5px;
++}
++.cicle>ul>.active{
++	background-color:#f00;
++}
++/*nav区*/
++.nav-b{
++	margin-top: 100px;
++}
++.nav-b>ul{
++	height: 120px;
++}
++.nav-b>ul>li{
++	width:320px;
++	height:120px;
++	float:left;	
++}
++.nav-b>ul>li>a{
++	display: block;
++	color:#141414;
++	width: 100%;
++	height: 72px;
++	font-size: 20px;
++	line-height: 72px;
++	text-align: center;
++	border-right: 1px solid #aeaeae;
++}
++.active{
++	background: #f7f7f7;
++}
++.nav-b>ul>li>a:hover{
++	color:green;
++}
++/*数字区*/
++.data{
++	background: url(../img2/12.jpg) 0 0 no-repeat;
++	height: 205px;
++	margin: 90px auto;
++}
++.data>span:first-child,.data>span:last-child{
++	font-size: 205px;
++	text-align: center;
++	line-height: 180px;
++	-webkit-transition: color 0.3s;
++	-moz-transition: color 0.3s;
++	-ms-transition: color 0.3s;
++	-o-transition: color 0.3s;
++	transition: color 0.3s;
++}
++.data>span:first-child{
++	width: 450px;
++	margin-left: 90px;
++	color:#f00;
++}
++.data>span:last-child{
++	width: 525px;
++	margin-left: 100px;
++	color:#000;
++}
++.data>span:first-child:hover{
++	color:green;
++}
++.data>span:last-child:hover{
++	color: blue;
++	color: blue;
++	color: blue;
++	color: blue;
++	color: blue;	
++}
++/*图片区*/
++.pic{
++	border-bottom: 1px solid #ccc;
++	padding-bottom: 20px;
++	margin-top: 30px;
++	position: relative;
++}
++.pic>.p{
++	width: 290px;
++	height: 435px;
++	display: table-cell;
++	vertical-align: top;
++	cursor:pointer;
++	opacity: 0.8;
++}
++.pic>.p:hover{
++	opacity: 1;
++	border:50px solid #fff;
++	margin:0 auto;
++}
++.pic>div>img{
++	margin-right:36px;
++}
++
++
++/*footer区*/
++.footer{
++	background: #000;
++	margin-top: 100px;
++}
++.footer>.nav{
++	line-height:85px; 
++}
++.list>ul{
++	margin-left:180px;
++}
++.list>ul>li{
++	width: 290px;
++	float: left;
++	padding:0 14px;
++}
++.list-in>li{
++	width: 290px;
++	height: 40px;
++	border-bottom: 1px dotted #fff;
++}
++.list-in>li>a{
++	color:#707070;
++	line-height: 40px;
++	font-size: 14px;
++}
++.list-in>li>a:hover{
++	color: #f00;
++}
++.content{
++	padding-top: 95px;
++}
++/*icon区*/
++.footer>.content>.icon{
++	margin:50px auto;
++ 	line-height: 35px;
++ 	overflow: hidden;
++}
++.footer>.content>.icon>a{
++	float: left;
++	height: 35px;
++	margin:0 50px;
++}
++.footer>.content>.icon>a:nth-child(1):hover{
++	background: url(../img/footer_icon.png) 0 -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(2):hover{
++	background: url(../img/footer_icon.png) -140px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(3):hover{
++	background: url(../img/footer_icon.png) -280px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(4):hover{
++	background: url(../img/footer_icon.png) -400px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(5):hover{
++	background: url(../img/footer_icon.png) -550px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(6):hover{
++	background: url(../img/footer_icon.png) -720px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(7):hover{
++	background: url(../img/footer_icon.png) -860px -35px no-repeat;
++	width: 120px;
++}
++.last-l>a{
++	margin-right: 15px;
++}
++.last-r{
++	max-width: 750px;
++}
++.last-r>p{
++	display: block;
++	margin-bottom: 10px;
++}
++.last-r>p:nth-child(1){
++	line-height: 17px;
++	color:#ababab;
++}
++.last-r>p:nth-child(2){
++	line-height: 13px;
++	color:#515151;
++}
++.last-r>p:nth-child(3){
++	height: 18px;
++	line-height: 18px;
++	font-size: 12px;
++	color:#fff;
++	margin:70px auto;
++	text-align: right;
++}
++.last-r>p:nth-child(3)>a{
++	margin:0 10px ;
++	color:#fff;
++}
++/*固定区*/
++.fixed{
++	width: 100%;
++	height: 59px;
++	background: #da0023;
++	color:#fff;
++	position: fixed;
++	bottom: 0;
++	left:0;
++}
++.fixed>div{
++	line-height: 57px;
++}
++.fixed>.ff{
++	display: block;
++	margin: 10px 0 0 153px;
++}
++.fixed>.ff>a>span{
++	font-size: 18px;
++    margin-left: 20px
++}
++.fixed>.fj{
++	margin-left: 270px;
++}
++.fixed>.fj>a{
++	font-size:18px;
++	margin:0 20px; 
++	color:#fff;
++}
++.fixed>.fj>a:hover{
++	color:yellow;
++}
++
++.fixed>.fm>a{
++	margin-right: 77px;
++	vertical-align: top;
++}
+diff --git a/css/inland.css b/css/inland.css
+new file mode 100644
+index 0000000..ff5883d
+--- /dev/null
++++ b/css/inland.css
+@@ -0,0 +1,383 @@
++body{
++	background: #fff;
++}
++.header{
++	height: 100px;
++	background-color: #da0023;
++}
++.center-box{
++	width: 1600px;
++	margin:0 auto;
++}
++.center-box>h1{
++	margin-top: 30px;
++}
++.center-box>ul{
++	margin-left: 120px;
++}
++.center-box>ul>li{
++	float: left;
++	width: 136px;
++	height: 80px;
++	line-height: 80px;
++	text-align: center;
++	border:1px solid #a90007;
++	border-radius: 25%;
++	box-shadow: 1px 2px 3px #a90007;
++	border-bottom: none;
++	border-top: none;
++	margin-top: 10px;
++}
++.center-box>ul>.style-p{
++	position: relative;
++}
++.center-box>ul>.style-p:hover{
++	background-color: #000;
++}
++.center-box>ul>.style-p>ul{
++	display: none;
++	width: 120px;
++	height: 160px;
++	position: absolute;
++	left:8px;
++	top:70px;
++}
++.center-box>ul>.style-p:hover .style-f
++{
++	display:block;
++}
++.center-box>ul>.style-p:hover:after{
++	content:'';
++	width: 0;
++	height: 0;
++	border: 5px solid transparent;
++	border-top-color: #fff;
++	position: absolute;
++	left: 60px;
++	bottom: 0;
++}
++.center-box>ul>.style-p>ul>li{
++	background-color: #000;
++	width: 100%;
++	height: 50px;
++	text-align: center;
++}
++.center-box>ul>.style-p>ul>li>a{
++	display: block;
++	width: 110px;
++	font-size: 16px;
++	color: #fff;
++	line-height: 50px;
++}
++.center-box>ul>.style-p>ul>li:hover{
++	background: #da0023;
++}
++.center-box>ul>li>a{
++	display: block;
++	font-size: 18px;
++	color:#fff;
++	line-height: 65px;
++}
++.center-box>ul>li>a:hover{
++	color:yellow;
++}
++.location{
++	float: left;
++	width: 350px;
++	height: 100px;
++	background: #353535;
++}
++.location>ul{
++	margin:30px 50px;
++}
++.location>ul>li{
++	width: 80px;
++	height: 40px;
++	float:left;
++	background-color: rgba(0,0,0,.5);
++	text-align: center;
++	line-height: 40px;
++}
++.location>ul>li:hover{
++	background-color:#fff; 
++}
++.location>ul>li>a{
++	display: block;
++	color:#fff;
++	font-size: 16px;
++}
++.location>ul>li>a:hover{
++	color:#000;
++}
++.banner{
++	height: 645px;
++}
++.content-box{
++	width: 1560px;
++	margin:0 auto;
++}
++.introduction{
++	margin:100px;
++}
++.introduction>ul{
++	display: block;
++}
++.introduction>ul>li{
++	width: 453px;
++	height: 521px;
++	float: left;
++	padding:0 31px;
++	border-right: 1px solid #dedede;
++}
++.introduction>ul>li>p{
++	font-size: 14px;
++	line-height: 22px;
++	color: #58585a;
++	padding:12px 2px;
++}
++.picture p{
++	float: left;
++	width: 520px;
++}
++.orgin{
++	margin-top: 100px;
++}
++.orgin>div{
++	display: inline-block;
++}
++.orgin>div{
++	width: 453px;
++	padding:0 31px;
++}
++.orgin>div>p{
++	font-size: 14px;
++	padding:12px 2px;
++	line-height: 22px;
++}
++.pic{
++	height: 532px;
++	margin-top: 80px;
++}
++.pic>img{
++	height: 100%;
++}
++.brand{
++	height: 171px;
++	margin-top: 80px;
++}
++.brand>.fr>img{
++	padding:20px 50px;
++	text-align: center;
++	line-height:90px; 
++	border-right: 1px solid #d9d9d9;
++}
++.brand>.fr{
++	margin-top: 30px;
++}
++.branch>dl>dd>p{
++	float: left;
++	font-size: 20px;
++	line-height: 68px;
++	color:#000;
++	text-align: left;
++	border-bottom: 1px solid #c9c9c9;
++}
++.branch>dl>dd>p:nth-child(1){
++	width: 180px;
++	margin-left:30px; 
++}
++.branch>dl>dd>p:nth-child(2){
++	width: 300px;
++}
++.branch>dl>dd>p:nth-child(3){
++	width: 850px;
++	color: #595a5c;
++}
++.branch>dl>dd>p:nth-child(4){
++	width: 200px;
++	color: #c30e23;
++	font-size: 24px;
++}
++/*咨询区*/
++.ask{
++	margin-top: 150px;
++}
++.ask>ul{
++	width: 1605px;
++	height: 108px;
++	margin:0 auto;
++	background: #f4f4f4;
++	overflow: hidden;
++}
++.ask>ul>li{
++	float: left;
++	width: 330px;
++	padding-left: 70px;
++	height: 75px;
++	margin-top: 19px;
++	border-right: 1px solid #d6d6d6;
++	color:#000;
++}
++.ask>ul>li>div>p{
++	max-width: 220px;
++}
++.ask>ul>li>.right{
++	margin-left: 20px;
++}
++.sj>a{
++	background: url(../imge/sj.png) left top no-repeat; 
++	width: 84px;
++	height: 30px;
++	display: block;
++	margin: 100px auto;
++}
++.sj>a:hover{
++	background: url(../imge/sj.png) right top no-repeat; 
++}
++/*你心目中的薇拉*/
++.your{
++	width: 100%;
++	height: 378px;
++	background-color: #dc504f;
++}
++.your>a{
++	display: block;
++	text-align: center;
++}
++/*footer区*/
++.footer{
++	background: #000;
++}
++.nav{
++	line-height:85px; 
++}
++.list>ul{
++	margin-left:180px;
++}
++.list>ul>li{
++	width: 290px;
++	float: left;
++	padding:0 14px;
++}
++.list-in>li{
++	width: 290px;
++	height: 40px;
++	border-bottom: 1px dotted #fff;
++}
++.list-in>li>a{
++	color:#707070;
++	line-height: 40px;
++	font-size: 14px;
++}
++.list-in>li>a:hover{
++	color: #f00;
++}
++.content{
++	padding-top: 95px;
++}
++/*icon区*/
++.footer>.content>.icon{
++	margin:50px auto;
++ 	line-height: 35px;
++ 	overflow: hidden;
++}
++.footer>.content>.icon>a{
++	float: left;
++	height: 35px;
++	margin:0 50px;
++}
++.footer>.content>.icon>a:nth-child(1):hover{
++	background: url(../img/footer_icon.png) 0 -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(2):hover{
++	background: url(../img/footer_icon.png) -140px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(3):hover{
++	background: url(../img/footer_icon.png) -280px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(4):hover{
++	background: url(../img/footer_icon.png) -400px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(5):hover{
++	background: url(../img/footer_icon.png) -550px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(6):hover{
++	background: url(../img/footer_icon.png) -720px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(7):hover{
++	background: url(../img/footer_icon.png) -860px -35px no-repeat;
++	width: 120px;
++}
++.last-l>a{
++	margin-right: 15px;
++}
++.last-r{
++	max-width: 750px;
++}
++.last-r>p{
++	display: block;
++	margin-bottom: 10px;
++}
++.last-r>p:nth-child(1){
++	line-height: 17px;
++	color:#ababab;
++}
++.last-r>p:nth-child(2){
++	line-height: 13px;
++	color:#515151;
++}
++.last-r>p:nth-child(3){
++	height: 18px;
++	line-height: 18px;
++	font-size: 12px;
++	color:#fff;
++	margin:70px auto;
++	text-align: right;
++}
++.last-r>p:nth-child(3)>a{
++	margin:0 10px ;
++	color:#fff;
++}
++/*固定区*/
++.fixed{
++	width: 100%;
++	height: 59px;
++	background: #da0023;
++	color:#fff;
++	position: fixed;
++	bottom: 0;
++	left:0;
++}
++.fixed>div{
++	line-height: 57px;
++}
++.fixed>.ff{
++	display: block;
++	margin: 10px 0 0 153px;
++}
++.fixed>.ff>a>span{
++	font-size: 18px;
++    margin-left: 20px
++}
++.fixed>.fj{
++	margin-left: 270px;
++}
++.fixed>.fj>a{
++	font-size:18px;
++	margin:0 20px; 
++	color:#fff;
++}
++.fixed>.fj>a:hover{
++	color:yellow;
++}
++
++.fixed>.fm>a{
++	margin-right: 77px;
++	vertical-align: top;
++}
+\ No newline at end of file
+diff --git a/css/special.css b/css/special.css
+new file mode 100644
+index 0000000..757adb1
+--- /dev/null
++++ b/css/special.css
+@@ -0,0 +1,655 @@
++body{
++	background: #fff;
++}
++/*导航*/
++.header{
++	height: 100px;
++	background-color: #da0023;
++}
++.center-box{
++	width: 1600px;
++	margin:0 auto;
++}
++.center-box>h1{
++	margin-top: 30px;
++}
++.center-box>ul{
++	margin-left: 120px;
++}
++.center-box>ul>li{
++	float: left;
++	width: 136px;
++	height: 80px;
++	line-height: 80px;
++	text-align: center;
++	border:1px solid #a90007;
++	border-radius: 25%;
++	box-shadow: 1px 2px 3px #a90007;
++	border-bottom: none;
++	border-top: none;
++	margin-top: 10px;
++}
++.center-box>ul>.style-p{
++	position: relative;
++}
++.center-box>ul>.style-p:hover{
++	background-color: #000;
++}
++.center-box>ul>.style-p>ul{
++	display: none;
++	width: 120px;
++	height: 160px;
++	position: absolute;
++	left:8px;
++	top:70px;
++}
++.center-box>ul>.style-p:hover .style-f{
++	display:block;
++}
++.center-box>ul>.style-p:hover:after{
++	content:'';
++	width: 0;
++	height: 0;
++	border: 5px solid transparent;
++	border-top-color: #fff;
++	position: absolute;
++	left: 60px;
++	bottom: 0;
++}
++.center-box>ul>.style-p>ul>li{
++	background-color: #000;
++	width: 100%;
++	height: 50px;
++	text-align: center;
++}
++.center-box>ul>.style-p>ul>li>a{
++	display: block;
++	width: 110px;
++	font-size: 16px;
++	color: #fff;
++	line-height: 50px;
++}
++.center-box>ul>.style-p>ul>li:hover{
++	background: #da0023;
++}
++.center-box>ul>li>a{
++	display: block;
++	font-size: 18px;
++	color:#fff;
++	line-height: 65px;
++}
++.center-box>ul>li>a:hover{
++	color:yellow;
++}
++.location{
++	float: left;
++	width: 350px;
++	height: 100px;
++	background: #353535;
++}
++.location>ul{
++	margin:30px 50px;
++}
++.location>ul>li{
++	width: 80px;
++	height: 40px;
++	float:left;
++	background-color: rgba(0,0,0,.5);
++	text-align: center;
++	line-height: 40px;
++}
++.location>ul>li:hover{
++	background-color:#fff; 
++}
++.location>ul>li>a{
++	display: block;
++	color:#fff;
++	font-size: 16px;
++}
++.location>ul>li>a:hover{
++	color:#000;
++}
++/*轮播图及文字区*/
++.content-box{
++	width: 1600px;
++	margin:0 auto;
++}
++.top{
++	margin-top: 120px;
++}
++.top-left{
++	max-width: 636px;
++	margin-left:20px;
++}
++.wz{
++	margin:25px auto;
++	border-bottom: 1px solid #dedede;	
++}
++.wz>p,.game>p,.pha>p{
++	font-size: 15px;
++	line-height: 22px;
++	color: #777779;
++	margin:15px auto;
++}
++.game{
++	margin:25px auto;
++	border-bottom: 1px solid #dedede;
++	padding-bottom: 10px;
++}
++.game>h1>span{
++	color:#c40000;
++}
++.pha>p>a:nth-child(1){
++	color:red;
++}
++.pha>p>a:nth-child(2){
++	color:#8ba982;
++}
++.pha>p>a:nth-child(3){
++	color:#666;
++}
++.pha>p>a:nth-child(4){
++	color:green;
++}
++.pha>p>a:nth-child(5){
++	color:blue;
++}
++.pha>p>a:nth-child(6){
++	color:pink;
++}
++.pha>p>a:nth-child(7){
++	color:orange;
++}
++.contact>.cf>p>a{
++	display: block;
++	width: 458px;
++	font-size: 16px;
++	color:#747474;
++	line-height: 48px;
++	text-align: center;
++	border:1px solid #ccc;
++	margin-bottom: 13px;
++}
++.contact>.cf>p>a:hover{
++	border-color:#000;
++}
++.at>p{
++	font-size: 12px;
++	line-height: 18px;
++	margin-bottom: 5px;
++	color:#797979;
++	margin-top: 10px;
++}
++.at>p:last-child{
++	color:#cacaca;
++	margin-top: 15px;
++}
++.top-right{
++	width: 800px;
++	height: 1096px;
++	position:relative;
++}
++.top-right>ul{
++	position: relative;
++}
++.top-right>ul>li{
++	position: absolute;
++	left:0;
++	top:0;
++}
++.top-right>ul>li>img{
++	width: 800px;
++	height: 1096px;
++}
++.top-right>.cicle{
++	position: absolute;
++	width: 120px;
++	height: 18px;
++	left:50%;
++	bottom:3px;
++	z-index: 2;
++	margin:0 auto;
++}
++.cicle>ul>li{
++	display: inline-block;
++	width: 10px;
++	height: 10px;
++	border:1px solid #fff;
++	border-radius:50%;
++	margin: 0 5px;
++}
++.cicle>ul>.active{
++	background-color:#f00;
++}
++/*展示区*/
++.work-show,.choice{
++	padding: 90px 0 18px;
++}
++.work-show>.wt>.nav>p,.choice>.top>p{
++	height: 40px;
++	padding-left: 10px;
++}
++.work-show>.wt>.nav>p>span>a,.choice>.top>p>a,.visit>p>span>a{
++	font-size: 14px;
++	font-weight: bold;
++	line-height: 20px;
++	color:#595a5c;
++}
++.work-show>.wt>.nav>p>span>a>span,.choice>p>span>a>span,.visit>p>span>a>span{
++	color:#156b11;
++}
++.nav-b>ul{
++	background: url(../image/bg.jpg) 0 0 no-repeat;
++	height: 134px;
++	border-top:1px solid #c2c2c2;
++}
++.nav-b>ul>li{
++	width: 12.5%;
++	float:left;
++}
++.nav-b>ul>li>a{
++	display: block;
++	width: 100%;
++	height: 125px;
++}
++.nav-b>ul>li:nth-child(1)>a:hover{
++	border-top:10px solid #000;
++}
++.nav-b>ul>li:nth-child(2)>a:hover{
++	border-top:10px solid #f00;
++}
++.nav-b>ul>li:nth-child(3)>a:hover{
++	border-top:10px solid #ffcc00;
++}
++.nav-b>ul>li:nth-child(4)>a:hover{
++	border-top:10px solid #dfdfdf;
++}
++.nav-b>ul>li:nth-child(5)>a:hover{
++	border-top:10px solid #94c9c8;
++}
++.nav-b>ul>li:nth-child(6)>a:hover{
++	border-top:10px solid #0081dc;
++}
++.nav-b>ul>li:nth-child(7).active{
++	border-top:10px solid #8bcdff;
++}
++.nav-b>ul>li:nth-child(8)>a:hover{
++	border-top:10px solid #8ba982;
++}
++.show>ul>li{
++	float:left;
++	width: 380px;
++	height: 845px;
++	margin:0 10px 100px;
++	position: relative;
++}
++.show>ul>li>a>i>img{
++	margin-bottom: 5px;
++}
++.show>ul>li>a:hover:after{
++	content: '';
++    position: absolute;
++    top: 0;
++    left: 0;
++    z-index: 100;
++    width: 380px;
++    height: 580px;
++    background: rgba(0,0,0,.5);
++}
++.show>ul>li>a>p>small{
++	font-size: 12px;
++	color:#9e9e9e;
++	line-height: 14px;
++	float:left;
++	text-align: right;
++}
++.show>ul>li>a>p>tt{
++	float:right;
++	color:#9e9e9e;
++}
++.show>ul>li>a>p>b{
++	font-size: 21px;
++	height: 30px;
++	line-height: 30px;
++	color:#000;
++	padding-top:2px;
++	font-weight: bold;
++}
++.show>ul>li>a>cite{
++	line-height: 18px;
++	color: #595a5c;
++	padding:3px 18px 0 0;
++	margin-bottom:30px;
++}
++.show>ul>li>a>p>ins{
++	display: block;
++	background:  url(../image/bg2.jpg) center center no-repeat;
++	background-color: #dc0000;
++	border:1px solid #ccc;
++	width: 218px;
++	height: 41px;
++	float:left;
++}
++ .show>ul>li>a>p>ins:hover{
++	background-color: #ae0000;
++}
++#en{
++	position: relative;
++	right:-150px;
++	width: 150px;
++	line-height: 42px;
++	float:right;
++	font-size: 18px;
++	font-weight: bold;
++	color:#6c6c6c;
++	text-align: right;
++}
++/*咨询区*/
++.ask{
++	margin-top: 30px;
++}
++.ask>ul{
++	width: 1605px;
++	height: 108px;
++	margin:0 auto;
++	background: #f4f4f4;
++	overflow: hidden;
++}
++.ask>ul>li{
++	float: left;
++	width: 330px;
++	padding-left: 70px;
++	height: 75px;
++	margin-top: 19px;
++	border-right: 1px solid #d6d6d6;
++	color:#000;
++}
++.ask>ul>li>div>p{
++	max-width: 220px;
++}
++.ask>ul>li>.right{
++	margin-left: 20px;
++}
++/*选择区*/
++.choice{
++	margin:0px auto 65px;
++	border-bottom: 1px solid #acacac;
++	-webkit-transform: translateY(-60px);
++	-moz-transform: translateY(-60px);
++	-ms-transform: translateY(-60px);
++	-o-transform: translateY(-60px);
++	transform: translateY(-60px);
++	
++}
++.choice>.top>.more>ul{
++	height: 780px;
++}
++.choice>.top>.more>ul>li{
++	width: 785px;
++	height: 730px;
++	float:left;
++	margin-right: 30px;
++	position: relative;
++}
++.choice>.top>.more>ul>li>p{
++	position: relative;
++	left: 0;
++	top: 435px;
++}
++.choice>.top>.more>ul>li>#surface{
++	z-index: 3;
++	background: rgba(0,0,0,.3);
++	position: absolute;
++	left: 0;
++	top: 0;
++	overflow: hidden;
++}
++.choice>.top>.more>ul>li>#su{
++	position: absolute;
++	left: 0;
++	top: 0;
++}
++/* .choice>.top>.more>ul>li:nth-child(1){
++	-webkit-transition: transform 0.3 opacity;
++	-moz-transition: transform 0.3 opacity;
++	-ms-transition: transform 0.3 opacity;
++	-o-transition: transform 0.3 opacity;
++	transition: transform 0.3s;	
++}
++.choice>.top>.more>ul>li>a:hover{
++	-webkit-transform: translateY();
++	-moz-transform: translateY();
++	-ms-transform: translateY();
++	-o-transform: translateY();
++	transform: translateY(432px);	
++}*/
++.text>p{
++	position: relative;
++	left: 0;
++	top: 450px;
++	margin:10px auto;
++	font-size: 14px;
++	line-height: 20px;
++	color: #838383;
++}
++.sj>a{
++	background: url(../imge/sj.png) left top no-repeat; 
++	width: 84px;
++	height: 30px;
++	display: block;
++	margin: 30px auto;
++}
++.sj>a:hover{
++	background: url(../imge/sj.png) right top no-repeat; 
++}
++/*访问区*/
++.visit{
++	background: url(../image/bg03.jpg) left top no-repeat;
++	width: 1560px;
++	height: 409px;
++	position: relative;
++}
++.visit>h1{
++	width: 420px;
++	height: 90px;
++	line-height: 90px;
++	font-size: 84px;
++	position: absolute;
++	left:90px;
++	top:206px;
++	color:#000;
++}
++.visit>a{
++	width: 280px;
++	height: 48px;
++	line-height: 48px;
++	text-align: center;
++	color:#fff;
++	font-size: 27px;
++	position: absolute;
++}
++.visit>a:nth-child(3){
++	background: #5dc288;
++	left: 60px;
++	top: 317px;
++}
++.visit>a:last-child{
++	background: #dc504f;
++	left: 350px;
++	top: 317px;
++}
++.visit>a:hover{
++	background: #000;
++}
++.pha{
++	margin-top: 15px;
++}
++.pha>p{
++	max-width: 720px;
++	font-size: 12px;
++    color: #595a5c;
++    line-height: 18px;
++    margin-left: 20px;
++}
++.kj>a{
++	float: left;
++    margin:15px 20px 0 17px;
++    font-size: 14px;
++    color: #1b1b1b;
++    width: 200px;
++    display: block;
++    height: 33px;
++    line-height: 33px;
++    border: 1px solid #b8b8b8;
++    text-align: center;
++}
++.kj>a:hover{
++	border-color: #000;
++}
++/*你心目中的薇拉*/
++.your{
++	width: 100%;
++	height: 378px;
++	background-color: #dc504f;
++}
++.your>a{
++	display: block;
++	text-align: center;
++}
++/*footer区*/
++.footer{
++	background: #000;
++}
++.footer>.nav{
++	line-height:85px; 
++}
++.list>ul{
++	margin-left:180px;
++}
++.list>ul>li{
++	width: 290px;
++	float: left;
++	padding:0 14px;
++}
++.list-in>li{
++	width: 290px;
++	height: 40px;
++	border-bottom: 1px dotted #fff;
++}
++.list-in>li>a{
++	color:#707070;
++	line-height: 40px;
++	font-size: 14px;
++}
++.list-in>li>a:hover{
++	color: #f00;
++}
++.content{
++	padding-top: 95px;
++}
++/*icon区*/
++.footer>.content>.icon{
++	margin:50px auto;
++ 	line-height: 35px;
++ 	overflow: hidden;
++}
++.footer>.content>.icon>a{
++	float: left;
++	height: 35px;
++	margin:0 50px;
++}
++.footer>.content>.icon>a:nth-child(1):hover{
++	background: url(../img/footer_icon.png) 0 -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(2):hover{
++	background: url(../img/footer_icon.png) -140px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(3):hover{
++	background: url(../img/footer_icon.png) -280px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(4):hover{
++	background: url(../img/footer_icon.png) -400px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(5):hover{
++	background: url(../img/footer_icon.png) -550px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(6):hover{
++	background: url(../img/footer_icon.png) -720px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(7):hover{
++	background: url(../img/footer_icon.png) -860px -35px no-repeat;
++	width: 120px;
++}
++.last-l>a{
++	margin-right: 15px;
++}
++.last-r{
++	max-width: 750px;
++}
++.last-r>p{
++	display: block;
++	margin-bottom: 10px;
++}
++.last-r>p:nth-child(1){
++	line-height: 17px;
++	color:#ababab;
++}
++.last-r>p:nth-child(2){
++	line-height: 13px;
++	color:#515151;
++}
++.last-r>p:nth-child(3){
++	height: 18px;
++	line-height: 18px;
++	font-size: 12px;
++	color:#fff;
++	margin:70px auto;
++	text-align: right;
++}
++.last-r>p:nth-child(3)>a{
++	margin:0 10px ;
++	color:#fff;
++}
++/*固定区*/
++.fixed{
++	width: 100%;
++	height: 59px;
++	background: #da0023;
++	color:#fff;
++	position: fixed;
++	bottom: 0;
++	left:0;
++}
++.fixed>div{
++	line-height: 57px;
++}
++.fixed>.ff{
++	display: block;
++	margin: 10px 0 0 153px;
++}
++.fixed>.ff>a>span{
++	font-size: 18px;
++    margin-left: 20px
++}
++.fixed>.fj{
++	margin-left: 270px;
++}
++.fixed>.fj>a{
++	font-size:18px;
++	margin:0 20px; 
++	color:#fff;
++}
++.fixed>.fj>a:hover{
++	color:yellow;
++}
++
++.fixed>.fm>a{
++	margin-right: 77px;
++	vertical-align: top;
++}
+\ No newline at end of file
+diff --git a/css/style.css b/css/style.css
+new file mode 100644
+index 0000000..cbb013e
+--- /dev/null
++++ b/css/style.css
+@@ -0,0 +1,794 @@
++body{
++	background-color: #000;
++}
++/*header区*/
++.header{
++	height: 100px;
++	background-color: #da0023;
++}
++.center-box{
++	width: 1600px;
++	margin:0 auto;
++}
++.center-box>h1{
++	margin-top: 30px;
++}
++.center-box>ul{
++	margin-left: 120px;
++}
++.center-box>ul>li{
++	float: left;
++	width: 136px;
++	height: 80px;
++	line-height: 80px;
++	text-align: center;
++	border:1px solid #a90007;
++	border-radius: 25%;
++	box-shadow: 1px 2px 3px #a90007;
++	border-bottom: none;
++	border-top: none;
++	margin-top: 10px;
++}
++.center-box>ul>.style-p{
++	position: relative;
++}
++.center-box>ul>.style-p:hover{
++	background-color: #000;
++}
++.center-box>ul>.style-p>ul{
++	display: none;
++	width: 120px;
++	height: 160px;
++	position: absolute;
++	left:8px;
++	top:70px;
++}
++.center-box>ul>.style-p:hover .style-f
++{
++	display:block;
++}
++.center-box>ul>.style-p:hover:after{
++	content:'';
++	width: 0;
++	height: 0;
++	border: 5px solid transparent;
++	border-top-color: #fff;
++	position: absolute;
++	left: 60px;
++	bottom: 0;
++}
++.center-box>ul>.style-p>ul>li{
++	background-color: #000;
++	width: 100%;
++	height: 50px;
++	text-align: center;
++}
++.center-box>ul>.style-p>ul>li>a{
++	display: block;
++	width: 110px;
++	font-size: 16px;
++	color: #fff;
++	line-height: 50px;
++}
++.center-box>ul>.style-p>ul>li:hover{
++	background: #da0023;
++}
++.center-box>ul>li>a{
++	display: block;
++	font-size: 18px;
++	color:#fff;
++	line-height: 65px;
++}
++.center-box>ul>li>a:hover{
++	color:yellow;
++}
++.location{
++	float: left;
++	width: 350px;
++	height: 100px;
++	background: #353535;
++}
++.location>ul{
++	margin:30px 50px;
++}
++.location>ul>li{
++	width: 80px;
++	height: 40px;
++	float:left;
++	background-color: rgba(0,0,0,.5);
++	text-align: center;
++	line-height: 40px;
++}
++.location>ul>li:hover{
++	background-color:#fff; 
++}
++.location>ul>li>a{
++	display: block;
++	color:#fff;
++	font-size: 16px;
++}
++.location>ul>li>a:hover{
++	color:#000;
++}
++/*轮播区*/
++.recycle{
++	height: 1160px;
++	margin-top:10px;
++}
++.num-list>.mc>a{
++	width: 230px;
++	color:blue;
++	margin-left: 500px;
++	z-index: 100;
++}
++.mc>a,.num-list>ul>li>a{
++	display: block;
++	font-size: 22px;
++	font-weight: 400;
++	line-height: 60px;
++	z-index: 100;
++}
++.num-list>ul>li>a:hover{
++	color: #f00;
++	border:1px solid #f00;
++	background-color: #fff;
++	border-radius: 50%;
++}
++.num-list>ul{
++	margin-left:60px;
++}
++.num-list>ul>li{
++	float: left;
++	width: 50px;
++	height: 50px;
++	color:#fff;
++	background: blue;
++	border-radius: 50%;
++	text-align: center;
++	margin:0 50px;
++}
++.num-list>ul>li>a{
++	color: #fff;
++	width: 100%;
++	height: 100%;
++	line-height: 50px;
++}
++.roman{
++	margin-top: 50px;
++	position: relative;
++	width: 100%;
++	height: 1100px;
++}
++.roman>img{
++	position: absolute;
++	left: 0;
++	top:0;
++	display: none;
++}
++.roman>img:first-child,
++.roman>img:target{
++	display: block;
++}
++/**/
++.show,.showt{
++	height: 800px;
++	background-color: #fff;
++}
++.show{
++	transform: translateX(20px);
++}
++.showt{
++	transform: translateX(-20px);
++	padding-top: 0;
++}
++
++.pic{
++	width: 50%;
++	display: block;	
++}
++.pic{
++	position: relative;
++}
++/*.pic>a:hover:before{
++	content: '';
++    position: absolute;
++    top: 0;
++    left: 0;
++    z-index: 100;
++    width: 912px;
++    height: 800px;
++    background: rgba(0,0,0,.5);
++     -webkit-transition: all 0.3s ease;
++      -moz-transition: all 0.3s ease;
++      -ms-transition: all 0.3s ease;
++      -o-transition: all 0.3s ease;
++      transition: all 0.3s ease;      
++}*/
++
++.pic>a:hover:after{
++	content: '';
++    position: absolute;
++    top: 0;
++    left: 0;
++    z-index: 100;
++    width: 912px;
++    height: 800px;
++    background: rgba(0,0,0,0.5);    
++}
++.text{
++	max-width: 600px;	
++	cursor: pointer;
++	margin: 50px 150px;
++	position: relative;
++}
++.text>h3,.text>span{
++	font-size: 22px;
++	font-weight: 400;
++}
++.text>h3>span{
++	color:#f00;
++}
++.text>h1{
++	font-size: 42px;
++	font-weight: 700;
++}
++.text>p{
++	font-size: 26px;
++	color:#f00;
++}
++.style-list{
++	margin:50px 10px;
++}
++.style-list>li{
++	float: left;
++	width: 181px;
++	height: 100px;
++	margin:20px 30px;
++	text-align: center;
++	border-bottom: 2px solid #ccc;
++	box-shadow: 2px 2px 2px #ccc;
++	-webkit-transition: transform 0.3s ease;
++	-moz-transition: transform 0.3s ease;
++	-ms-transition: transform 0.3s ease;
++	-o-transition: transform 0.3s ease;
++	transition: transform 0.3s ease;
++}
++.style-list>li:hover{
++	-webkit-transform: translateY(-8px);
++	-moz-transform: translateY(-8px);
++	-ms-transform: translateY(-8px);
++	-o-transform: translateY(-8px);
++	transform: translateY(-8px);
++	
++}
++.style-list>li>a{
++	display: block;
++	font-size: 18px;
++	line-height: 30px;
++	margin-top: 15px;
++
++}
++.style-list>li>a>p:first-child{
++	color:#000;
++}
++.style-list>li>a>p:last-child{
++	color:#f00;
++}
++.sqlf,.sqls{
++	width: 60px;
++	height: 2px;
++	border:29px solid transparent;
++	z-index: 2;
++	position: absolute;
++}
++.sqlf{
++	border-right-color: #fff;
++	top:98px;
++	left:84%;
++}
++.sqls{
++	border-left-color: #fff;
++	top:200px;
++	right:88%;
++}
++.style>ul>li{
++	float: left;
++	width: 60px;
++	height: 60px;
++	line-height: 50px;
++	font-size: 38px;
++	font-weight: 400;
++	color:#000;
++	background: #ffd048;
++	box-shadow: 3px 3px 3px #ccc;
++	border-radius: 50%;
++	text-align: center;
++	margin:50px 30px;
++}
++.style>ul>li:nth-child(1){
++	animation: recycle1 8s linear alternate infinite;
++}
++.style>ul>li:nth-child(2){
++	animation: recycle2 8s linear alternate infinite;
++}
++.style>ul>li:nth-child(3){
++	animation: recycle3 8s linear alternate infinite;
++}
++.style>ul>li:nth-child(4){
++	animation: recycle4 8s linear alternate infinite;
++}
++/*定义动画*/
++@keyframes recycle1{
++	0%{
++		transform: translateY(20px);
++	}
++	50%{
++		transform: translateY(-25px);
++	}
++	100%{
++		transform: translateY(0px);
++	}
++}
++@keyframes recycle2{
++	0%{
++		transform: translateY(-20px);
++	}
++	50%{
++		transform: translateY(25px);
++	}
++	100%{
++		transform: translateY(0px);
++	}
++}
++@keyframes recycle3{
++	0%{
++		transform: translateY(8px);
++	}
++	50%{
++		transform: translateY(-30px);
++	}
++	100%{
++		transform: translateY(5px);
++	}
++}
++@keyframes recycle4{
++	0%{
++		transform: translateY(-20px);
++	}
++	50%{
++		transform: translateY(20px);
++	}
++	100%{
++		transform: translateY(-6px);
++	}
++}
++.admire{
++	background-color: #fff;
++	margin-top: 10px;
++
++}
++.ad-content>ul>li{
++	overflow: hidden;
++	width: 880px;
++}
++.text-f{
++	width: 160px;
++	height: 339px;
++	background-color: #ccc;
++	z-index: 2;
++}
++.text-f>span{
++	background: red;
++	width: 120px;
++	height: 25px;
++	color: #fff;
++	font-size: 16px;
++	line-height: 25px;
++	padding:5px 10px;
++	text-align: right;
++	position: relative;
++}
++.sjt{
++	width: 60px;
++	height: 2px;
++	border:20px solid transparent;
++	border-left-color: #f00;
++	z-index: 1;
++	position: relative;
++	left: 140px;
++	top:-29px;
++}
++.text-f>h1{
++	margin-top: 10px;
++}
++.text-f>span{
++	display: block;
++	margin-top: 15px;
++}
++.text-f>p{
++	font-size:16px;
++	line-height: 25px;
++	display: block;
++	margin-top: 30px;
++}
++.admire>.ad-content>ul>li img{
++	-webkit-transition: transform 0.3s ease;
++	-moz-transition: transform 0.3s ease;
++	-ms-transition: transform 0.3s ease;
++	-o-transition: transform 0.3s ease;
++	transition: transform 0.3s ease,opacity;
++}
++.admire>.ad-content>ul>li img:hover{
++	-webkit-transform: translateX(-8px);
++	-moz-transform: translateX(-8px);
++	-ms-transform: translateX(-8px);
++	-o-transform: translateX(-8px);
++	transform: translateX(-12px);	
++	opacity:0.7;
++}
++.ad-content>ul>li img{
++	width: 300px;
++	height: 339px;
++	float: left;
++	position:absolute;
++}
++.ad-content>ul{
++	margin-left: 36px;
++}
++.ad-content>ul>li{
++	float: left;
++	overflow: hidden;
++	position: relative;
++	max-width: 450px;
++	margin-right: 10px;
++}
++<!-- 旋转图片区 -->
++.major{
++	width: 100%;
++	height: 500px;
++}
++.major>ul{
++	margin-left: 230px;
++	animation: roll 10s linear alternate infinite;
++}
++.major>ul>li{
++	float: left;
++	position: relative;
++	
++}
++.major>ul>li:nth-child(1){
++	transform: rotateZ(-7deg);
++}
++.major>ul>li:nth-child(2){
++	margin:0 100px;
++	transform: rotateZ(10deg);
++}
++.major>ul>li:nth-child(3){
++	transform: rotateZ(-8deg);
++}
++.major>ul>li img{
++	width: 450px;
++	height: 400px;
++	margin-top: 100px;
++	border:5px solid #ff9;
++	box-shadow: 2px 3px 3px #ccc;
++	-webkit-transition: transform 0.3s,opacity;
++	-moz-transition: transform 0.3s,opacity;
++	-ms-transition: transform 0.3s,opacity;
++	-o-transition: transform 0.3s,opacity;
++	transition: transform 0.3s,opacity 0.3s;
++}
++.major>ul>li img:hover{
++	-webkit-transform: scale(1.2);
++	-moz-transform: scale(1.2);
++	-ms-transform: scale(1.2);
++	-o-transform: scale(1.2);
++	transform: scale(2px);
++	opacity: 0.6;
++	
++}
++@keyframes roll{
++	0%{
++		transform: rotateX(0);
++	}
++	25%{
++		transform: rotateX(-30deg);
++	}
++	50%{
++		transform:  rotateX(0);
++	}
++	75%{
++		transform: rotateX(-30deg);
++	}
++	100%{
++		transform: rotateX(0deg);
++	}
++}
++.major>ul>li>a div{
++	position: absolute;
++	top:70%;
++	left:10%;
++}
++.major>ul>li>a p{
++	font-size: 42px;
++	font-weight: 600;
++	line-height: 60px;
++	color:#fff;
++	text-align: center;
++	z-index: 3;
++}
++/*女神区*/
++.ns-style{
++	background: url(../img/ns.jpg) center center no-repeat;
++	height: 800px;
++	margin-top: 50px;
++}
++.ns-style>.god{
++	text-align: center;
++	line-height: 300px;
++	padding-top: 100px;
++}
++.ns-style>.god>a>p{
++	font-size:30px;
++	font-weight: 400;
++	color:#f00;
++	line-height: 50px;
++}
++/*每日客片*/
++.view{
++	background: url(../img/page.jpg);
++	height: 1120px;
++	color: #fff;
++}
++.view-con{
++	text-align: center;
++}
++
++.view>div>p>span{
++	font-size: 32px;
++	height: 70px;
++	line-height: 70px;
++	border-right: 1px solid #fff;
++	padding:0 85px;
++}
++.view>div>p>span>i{
++	font-size: 63px;
++	font-weight: bold;
++	font-style: normal;
++}
++#day{
++	font-size: 53px;
++	border-right: none;
++	margin-left: 200px; 
++}
++.number>b{
++	font-size: 340px;
++	line-height: 340px;
++	font-family: 'CenturyGothic';	
++}
++.number>b:hover{
++	animation: change 5s linear;
++}
++@keyframes change{
++	0%{
++		transform: scale(1);
++		color:#fff;
++	}
++	
++	50%{
++		transform:  scale(1.5);
++		color:yellow;
++	}
++	
++	100%{
++		transform: scale(1);
++		color:#fff;
++	}
++}
++.number>span{
++	font-size: 34px;
++}
++.every{
++	font-size: 62px;
++	margin:100px auto;
++}
++.look>a{
++	width: 220px;
++	height: 47px;
++	line-height: 47px;
++	background: yellow;
++	font-size: 14px;
++	font-weight: bold;
++	text-align: center;
++	padding:5px 30px;
++	margin:80px auto;
++	color:#000;
++}
++.look>a:hover{
++	background: #000;
++	color:#f00;
++}
++/*你心目中的薇拉*/
++.your{
++	width: 100%;
++	height: 378px;
++	background-color: #dc504f;
++}
++.your>a{
++	display: block;
++	text-align: center;
++}
++/*footer区*/
++.footer{
++	background: #000;
++}
++.nav{
++	line-height:85px; 
++}
++.list>ul{
++	margin-left:180px;
++}
++.list>ul>li{
++	width: 290px;
++	float: left;
++	padding:0 14px;
++}
++.list-in>li{
++	width: 290px;
++	height: 40px;
++	border-bottom: 1px dotted #fff;
++}
++.list-in>li>a{
++	color:#707070;
++	line-height: 40px;
++	font-size: 14px;
++}
++.list-in>li>a:hover{
++	color: #f00;
++}
++.content{
++	padding-top: 95px;
++}
++/*icon区*/
++.footer>.content>.icon{
++	margin:50px auto;
++ 	line-height: 35px;
++ 	overflow: hidden;
++}
++.footer>.content>.icon>a{
++	float: left;
++	height: 35px;
++	margin:0 50px;
++}
++.footer>.content>.icon>a:nth-child(1):hover{
++	background: url(../img/footer_icon.png) 0 -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(2):hover{
++	background: url(../img/footer_icon.png) -140px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(3):hover{
++	background: url(../img/footer_icon.png) -280px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(4):hover{
++	background: url(../img/footer_icon.png) -400px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(5):hover{
++	background: url(../img/footer_icon.png) -550px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(6):hover{
++	background: url(../img/footer_icon.png) -720px -35px no-repeat;
++	width: 120px;
++}
++.footer>.content>.icon>a:nth-child(7):hover{
++	background: url(../img/footer_icon.png) -860px -35px no-repeat;
++	width: 120px;
++}
++.last-l>a{
++	margin-right: 15px;
++}
++.last-r{
++	max-width: 750px;
++}
++.last-r>p{
++	display: block;
++	margin-bottom: 10px;
++}
++.last-r>p:nth-child(1){
++	line-height: 17px;
++	color:#ababab;
++}
++.last-r>p:nth-child(2){
++	line-height: 13px;
++	color:#515151;
++}
++.last-r>p:nth-child(3){
++	height: 18px;
++	line-height: 18px;
++	font-size: 12px;
++	color:#fff;
++	margin:70px auto;
++	text-align: right;
++}
++.last-r>p:nth-child(3)>a{
++	margin:0 10px ;
++	color:#fff;
++}
++/*固定区*/
++.fixed{
++	width: 100%;
++	height: 59px;
++	background: #da0023;
++	color:#fff;
++	position: fixed;
++	bottom: 0;
++	left:0;
++}
++.fixed>div{
++	line-height: 57px;
++}
++.fixed>.ff{
++	display: block;
++	margin: 10px 0 0 153px;
++}
++.fixed>.ff>a>span{
++	font-size: 18px;
++    margin-left: 20px
++}
++.fixed>.fj{
++	margin-left: 270px;
++}
++.fixed>.fj>a{
++	font-size:18px;
++	margin:0 20px; 
++	color:#fff;
++}
++.fixed>.fj>a:hover{
++	color:yellow;
++}
++
++.fixed>.fm>a{
++	margin-right: 77px;
++	vertical-align: top;
++}
++/*内部区*/
++.cb{
++	width: 910px;
++	height: 560px;
++	background:rgba(0,0,0,.5);
++	position:absolute;
++	top: 330px;
++	left: 50px;
++	display: none;
++}
++.cb>.bf{
++	width: 510px;
++	margin:30px auto;
++}
++.cb>.bf>p{
++	font-size: 14px;
++	color:#000;
++	line-height: 30px;
++	margin:15px 15px;
++}
++.cb>.bf>p>span{
++	background: #ccc;
++	border:1px solid #ccc;
++	padding:5px 10px;
++	margin-right: 6px;
++}
++.cb>.bf>p>a>span{
++	width: 180px;
++	height: 40px;
++	line-height: 40px;
++	text-align: center;
++	font-size: 14px;
++	margin-right: 5px;
++	background: #000;
++	color:#fff;
++	padding:5px 20px;
++}
+diff --git a/css/update.css b/css/update.css
+new file mode 100644
+index 0000000..3c4b383
+--- /dev/null
++++ b/css/update.css
+@@ -0,0 +1,331 @@
++/*导航*/
++.header{
++	height: 100px;
++	background-color: #da0023;
++}
++.center-box{
++	width: 1600px;
++	margin:0 auto;
++}
++.center-box>h1{
++	margin-top: 30px;
++}
++.center-box>ul{
++	margin-left: 120px;
++}
++.center-box>ul>li{
++	float: left;
++	width: 136px;
++	height: 80px;
++	line-height: 80px;
++	text-align: center;
++	border:1px solid #a90007;
++	border-radius: 25%;
++	box-shadow: 1px 2px 3px #a90007;
++	border-bottom: none;
++	border-top: none;
++	margin-top: 10px;
++}
++.center-box>ul>.style-p{
++	position: relative;
++}
++.center-box>ul>.style-p:hover{
++	background-color: #000;
++}
++.center-box>ul>.style-p>ul{
++	display: none;
++	width: 120px;
++	height: 160px;
++	position: absolute;
++	left:8px;
++	top:70px;
++}
++.center-box>ul>.style-p:hover .style-f{
++	display:block;
++}
++.center-box>ul>.style-p:hover:after{
++	content:'';
++	width: 0;
++	height: 0;
++	border: 5px solid transparent;
++	border-top-color: #fff;
++	position: absolute;
++	left: 60px;
++	bottom: 0;
++}
++.center-box>ul>.style-p>ul>li{
++	background-color: #000;
++	width: 100%;
++	height: 50px;
++	text-align: center;
++}
++.center-box>ul>.style-p>ul>li>a{
++	display: block;
++	width: 110px;
++	font-size: 16px;
++	color: #fff;
++	line-height: 50px;
++}
++.center-box>ul>.style-p>ul>li:hover{
++	background: #da0023;
++}
++.center-box>ul>li>a{
++	display: block;
++	font-size: 18px;
++	color:#fff;
++	line-height: 65px;
++}
++.center-box>ul>li>a:hover{
++	color:yellow;
++}
++.location{
++	float: left;
++	width: 350px;
++	height: 100px;
++	background: #353535;
++}
++.location>ul{
++	margin:30px 50px;
++}
++.location>ul>li{
++	width: 80px;
++	height: 40px;
++	float:left;
++	background-color: rgba(0,0,0,.5);
++	text-align: center;
++	line-height: 40px;
++}
++.location>ul>li:hover{
++	background-color:#fff; 
++}
++.location>ul>li>a{
++	display: block;
++	color:#fff;
++	font-size: 16px;
++}
++.location>ul>li>a:hover{
++	color:#000;
++}
++.content-box{
++	width: 1600px;
++	margin:0 auto;
++}
++/*每日客片*/
++.view{
++	height: 1120px;
++	color: #000;
++}
++.view-con{
++	text-align: center;
++}
++
++.view>div>p>span{
++	font-size: 32px;
++	height: 70px;
++	line-height: 70px;
++	border-right: 1px solid #000;
++	padding:10px 50px;
++}
++.view>div>p>span>i{
++	font-size: 63px;
++	font-weight: bold;
++	font-style: normal;
++}
++#day{
++	font-size: 16px;
++	line-height: 35px;
++	color: #fff;
++	background: #ff9000;
++	border:1px solid #ccc;
++	margin-left: 260px;
++}
++.number>b{
++	font-size: 340px;
++	line-height: 340px;
++	text-align: center;
++}
++.number>span{
++	font-size: 34px;
++	color:#f00;
++}
++/*nav区*/
++.nav-b{
++	-webkit-transform: translateY(100px);
++	-moz-transform: translateY(100px);
++	-ms-transform: translateY(100px);
++	-o-transform: translateY(100px);
++	transform: translateY(-335px);
++	
++}
++.nav-b>ul{
++	height: 120px;
++}
++.nav-b>ul>li{
++	width:318px;
++	height:120px;
++	float:left;	
++	background: #f7f7f7;
++	border-right: 1px solid #000;
++}
++.nav-b>ul>li>a{
++	display: block;
++	color:#141414;
++	width: 100%;
++	height: 72px;
++	font-size: 20px;
++	line-height: 100px;
++	text-align: center;
++	z-index: 3;
++}
++.nav-b>ul>li>a:hover{
++	color:#000;
++}
++.time{
++	position: relative;
++	top:-180px;
++	height: 50px;
++	line-height: 50px;
++	position: relative;
++}
++.time>a>i{
++	font-size: 39px;
++	font-weight: 700;
++	font-style: normal;
++	color:#ccc;
++	position: relative;
++	top:5px;
++}
++.time>a>i:hover{
++	color:#f00;
++}
++.time>a>span{
++	font-size: 26px;
++	color: #181818;
++}
++.time>a>b{
++	width: 410px;
++	height: 50px;
++	font-size: 36px;
++	color:#000;
++	position: absolute;
++	top: 0;
++	left:43%;
++}
++/*展示区*/
++.pic{
++	margin:60px auto;
++}
++.pic>.pic-l{
++	width: 1044px;
++	border-right: 1px solid #c2c2c2;
++}
++.pic>.pic-r{
++	width: 515px;
++}
++.pic>.pic-l>.top{
++	height: 89px;
++	background: #f00;
++}
++.pic>.pic-l>.top:hover{
++	background: blue;
++}
++.lj{
++	margin-top:20px;
++}
++.lj>a{
++	font-size: 16px;
++	padding:10px 4px;
++	border-right: 1px dotted #ccc;
++}
++
++.kf{
++	width: 460px;
++	height: 50px;
++	font-size: 16px;
++	border:1px solid #747474;
++	line-height: 50px;
++	text-align: center;
++	margin-bottom: 13px;
++}
++.kf:hover{
++	border-color: blue;
++}
++/*旋转动画*/
++	body{
++	 	perspective:4000px;
++	 }
++	 div{
++			transform-style: preserve-3d;
++		}
++	 .pic-r>.stage{
++	 	width: 500px;
++	 	height: 3000px;
++	 	position: relative;
++	 	top:1200px;
++	 	animation: roll 10s linear infinite;
++	 	margin-right: 30px;
++	 }
++	 .pic-r>.stage>img{
++	 	width: 300px;
++	 	height: 450px;
++	 	position: absolute;
++	 }
++	.pic-r>.stage> img:nth-child(1){
++	 	transform: rotateX(36deg)
++	 	translateZ(700px);
++	 }
++	 .pic-r>.stage> img:nth-child(2){
++	 	transform: rotateX(72deg)
++	 	translateZ(700px);
++	 }
++	 .pic-r>.stage> img:nth-child(3){
++	 	transform: rotateX(108deg)
++	 	translateZ(700px);
++	 }
++	 .pic-r>.stage> img:nth-child(4){
++	 	transform: rotateX(144deg)
++	 	translateZ(700px);
++	 }
++	 .pic-r>.stage> img:nth-child(5){
++	 	transform: rotateX(180deg)
++	 	translateZ(700px);
++	 }
++	 .pic-r>.stage> img:nth-child(6){
++	 	transform: rotateX(216deg)
++	 	translateZ(700px);
++	 }
++	 .pic-r>.stage> img:nth-child(7){
++	 	transform: rotateX(252deg)
++	 	translateZ(700px);
++	 }
++	 .pic-r>.stage> img:nth-child(8){
++	 	transform: rotateX(288deg)
++	 	translateZ(700px);
++	 }
++	 .pic-r>.stage> img:nth-child(9){
++	 	transform: rotateX(324deg)
++	 	translateZ(700px);
++	 }
++	 .pic-r>.stage> img:nth-child(10){
++	 	transform: rotateX(360deg)
++	 	translateZ(700px);
++	 }
++	 <!-- 定义动画 -->
++	@keyframes roll{
++			0%{
++				-webkit-transform: rotateX(40deg);
++				-moz-transform: rotateX(40deg);
++				-ms-transform: rotateX(40deg);
++				-o-transform: rotateX(40deg);
++				transform: rotateX(40deg);
++			 	
++			}
++			100%{
++				-webkit-transform: rotate3d(1,0,0,360deg);
++				-moz-transform: rotate3d(1,0,0,360deg);
++				-ms-transform: rotate3d(1,0,0,360deg);
++				-o-transform:rotate3d(1,0,0,360deg) ;
++				transform:rotate3d(1,0,0,360deg) ;
++				
++			}
++		}
+\ No newline at end of file
+diff --git a/fasion.html b/fasion.html
+new file mode 100644
+index 0000000..a34fc56
+--- /dev/null
++++ b/fasion.html
+@@ -0,0 +1,480 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++	<meta charset="UTF-8">
++	<title>时尚.态度</title>
++	<link rel="stylesheet" href="css/base.css" type="text/css">
++	<link rel="stylesheet" href="css/fashion.css" type="text/css">
++	<!DOCTYPE html>
++	<html lang="en">
++	<head>
++		<meta charset="UTF-8">
++		 <meta http-equiv="X-UA-Compatible" content="IE=edge">
++	    <meta name="viewport" content="width=device-width, initial-scale=1">
++		<title>Document</title>
++		<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
++	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
++	 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
++	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
++	    <!--[if lt IE 9]>
++	      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
++	      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
++	    <![endif]-->
++	
++	
++	
++	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
++	
++	</head>
++	<body>
++		
++	 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
++	 <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
++	</body>
++	</html>
++</head>
++<body>
++<!-- 导航 -->
++	<div class="header">
++		<div class="center-box clearfix">
++			<h1 class="fl"><a href="">
++				<img src="img/logo01.jpg">
++			</a></h1>
++			<ul class="fl clearfix">
++				<li style="border-left: none;"><a href="page2.html">快速了解薇拉</a></li>
++				<li class="style-p"><a href="">拍摄风格选择</a>
++					<ul class="style-f">
++						<li><a href="special.html">薇拉@漢</a></li>
++						<li><a href="fasion.html">时尚•态度</a></li>
++						<li><a href="">高端定制</a></li>
++						<li><a href="">薇拉女神</a></li>
++					</ul>
++
++				</li>
++				<li class="style-p"><a href="">客片大赏</a>
++					<ul class="style-f">
++						<li><a href="update.html">每日更新</a></li>
++						<li><a href="guest.html">客片大赏</a></li>
++					</ul>
++				</li>
++				<li><a href="">资询档期</a></li>
++				<li><a href="">查找店面</a></li>
++				<li style="border-right: none;"><a href="">YOU</a></li>
++			</ul>
++			<div class="location">
++				<ul class="clearfix">
++					<li><a href="">武汉</a></li>
++					<li><a href="">深圳</a></li>
++					<li><a href="">三亚</a></li>
++				</ul>
++			</div>
++		</div>
++	</div>
++	<!-- 轮播图及文字 -->
++	<div class="top content-box clearfix">
++		<div class="top-left fl">
++			<div class="tp"><img src="image/41.jpg" alt=""></div>
++			<div class="wz">
++				<img src="image/42.jpg" alt="">
++				<p>薇拉在摄影上所坚持DIY （DO IT YOURSELF）精神，适时地拓宽自己的风格范围。2013年夏，薇拉以广众先驱之名宣誓崭新风格主权。逐一发布全新摄影风格作品《时尚·态度》系列。</p>
++				<p>在我们看来，时尚是一种生活态度，是一种勇敢去想、勇敢去做的态度。时尚不是某个东西，时尚也不单纯是追逐某种流行趋势，它可能成为未来的人们普遍接受的东西，但在眼下，时尚绝对是少数人敢于尝试的冒险的生活方式。</p>
++			</div>
++			<div class="game">
++				<h1><span>技术</span>，永远是影楼的<span>核心竞争力</span>。</h1>
++				<p>我们崇尚独立。INDIE(独立)是一种态度，是一种对于摄影创作的态度，推而广之，它同样也是薇拉广大摄影师对于时尚取舍的态度，我们欣赏照片或多或少都是在慢慢形成自己的审美取向，形成一种不受外界干扰的独立态度，必要时CHECK OUR ATTITUDE,保持清醒且特立独行的头脑。淋漓尽致地展现薇拉摄影的《时尚·态度》</p>
++			</div>
++			<div class="pha">
++				<p>在《时尚·态度》的创作中，我们更加注重婚纱礼服的品质和细节。更加注重妆容的精致与和谐。一幅幅风尚婚纱杂志大片跃然而现。</p>
++				<p>《薇拉@汉》风格的多样化结合不同诉求的定制化，在庞大的客照市场中不断得到口碑验证。《薇拉@汉》七大分支风格：
++					<a href="">视觉元素系列,</a>
++					<a href="">中国新娘系列,</a>
++					<a href="">‘韩’系列,</a>
++					<a href="">健康系列,</a>
++					<a href="">北海斋系列,</a>
++					<a href="">复古风潮系列,</a>
++					<a href="">幸福纪实系列,</a>
++					七大系列多种风格玩味时尚婚纱.</p>
++			</div>
++			<div class="contact clearfix">
++				<div class="cf fl">
++					<p><a href="">点击联系qq客服</a></p>
++					<p><a href="">点击访问微博联系客服</a></p>
++				</div>
++				<div class="cr fr">
++					<img src="image/03.jpg" alt="">
++				</div>
++			</div>
++			<div class="at">
++				<p>访客观网指南：尊敬的访客您好！欢迎来到薇拉摄影官方网站《薇拉@漢》栏目。 您在这里会看到来自薇拉摄影的各种风格样片。您可以点击这里联系我们的客服，告诉他/她您所心仪的风格，同时 您也可以要求观看每个风格样片所对应的客片。</p>
++				<p>VISITORS GUIDE NETWORK VIEW: DEAR VISITORS HELLO! WELCOME TO THE OFFICIAL WEBSITE OF AVIVA "VERA @ HAN" SECTION.HERE YOU'LL SEE A VARIETY OF STYLES FROM THE SAMPLE OF AVIVA. YOU CAN CLICK HERE TO CONTACT OUR CUSTOMER SERVICE, SUETELL HIM / HER THAT YOU FAVORITE STYLE, BUT YOU CAN ALSO ASK TO SEE SAMPLES OF EACH STYLE SHEET CORRESPONDING TO THE CUSTOMER</p>
++			</div>
++		</div>
++		<div class="top-right fr">
++
++			<ul>
++				<li><img src="image/51.jpg" alt=""></li>
++				<li><img src="image/52.jpg" alt=""></li>
++				<li><img src="image/51.jpg" alt=""></li>
++				<li><img src="image/52.jpg" alt=""></li>
++				<li><img src="image/53.jpg" alt=""></li>
++			</ul>
++		<!-- 	<script type="text/javascript">
++		$(".at_scroll").slide({titCell:".hd li",mainCell:".bd ul",effect:"fold",autoPlay:true});
++		</script> -->
++			<div class="cicle">
++				<ul class="clearfix">
++					<li class="fl active"></li>
++					<li class="fl"></li>
++					<li class="fl"></li>
++					<li class="fl"></li>
++					<li class="fl"></li>
++				</ul>
++			</div>
++		</div>
++	</div>
++	<!-- 作品展示区 -->
++	<div class="work-show content-box">
++		<div class="wt">
++				<p class="clearfix">
++					<i class="fl"><img src="image/43.gif" alt=""></i>
++					<span class="fr">
++						<a>直击幸福现场查看 <span>《每日最新客片》</span></a>
++						<a>点击这里查看 <span>《客片大赏》</span></a>
++					</span>
++				</p>
++				<div class="system">
++					<div class="pic">
++						<a href=""><img src="image/54.jpg" alt="" width="100%"></a>
++					</div>
++					<div class="record">
++						<ul>
++							<li>
++								<a href=""><h1><b>绯色幻影</b></h1>
++								<p>REVERSION</p>
++								</a>
++							</li>
++							<li><a href="">
++								<p>那些迷离而神秘的气质，在二次曝光的镜头里，永存惊艳幻影。不同层次的迷人魅力，交叠重影于同一
++								底片。那些缥缈而无法捕捉的迷魅幻影，都化作照片的迷人质感。世人将见证灵感与华服重叠的那刻，最精美的艺术品，经由摄影而大放异彩。</p>
++							</a></li>
++							<li><a href="">
++								09 Mar 2017
++							</a></li>
++							<li style="border-right: none;"><a href="">WATCH THE COMPLET WORKS </a></li>
++						</ul>
++					</div>
++				</div>
++				<div class="system">
++					<div class="pic">
++						<img src="image/55.jpg" alt="" width="100%">
++					</div>
++					<div class="record">
++						<ul>
++							<li>
++								<a href=""><h1><b>JUNGLE FANTASY</b></h1>
++								<p>REVERSION</p>
++								</a>
++							</li>
++							<li><a href="">
++								<p>神秘的丛林幻想，异域风情下的曲线诱惑，性感是稳重象躯下妖娆的一抹风情。异域绝景渲染浓墨重彩的人生真谛，明艳裙裳诠释野性张狂的性感撩人。曲线玲珑身姿下暗藏诡秘风情，摇曳生姿间荡漾眸中秋水。</p>
++							</a></li>
++							<li><a href="">
++								09 Mar 2017
++							</a></li>
++							<li style="border-right: none;"><a href="">WATCH THE COMPLET WORKS </a></li>
++						</ul>
++					</div>
++				</div>
++				<div class="system">
++					<div class="pic">
++						<img src="image/57.jpg" alt="" width="100%">
++					</div>
++					<div class="record">
++						<ul>
++							<li>
++								<a href=""><h1><b>CHARMING</b></h1>
++								<p>REVERSION</p>
++								</a>
++							</li>
++							<li><a href="">
++								<p>感官犹若烟火之瞬间，肉体凡胎循环而复始，精神不过渴求的摇摆，灵魂尽是梦幻皆泡影。而美是浑然自觉，静则一眼一境界，动则一霎一幻灭，肉与灵之按摩。美是柔软的，隐秘吸引力，人人渴求，无一幸免。</p>
++							</a></li>
++							<li><a href="">
++								09 Mar 2017
++							</a></li>
++							<li style="border-right: none;"><a href="">WATCH THE COMPLET WORKS </a></li>
++						</ul>
++					</div>	
++				</div>
++				<div class="system">
++					<div class="pic">
++						<img src="image/58.jpg" alt="" width="100%">
++					</div>
++					<div class="record">
++						<ul>
++							<li>
++								<a href=""><h1><b>ELEGANCE</b></h1>
++								<p>REVERSION</p>
++								</a>
++							</li>
++							<li><a href="">
++								<p>女人为什么美丽？她是珍珠，从柔软中汲取温暖，拥有包容之姿，从柔弱中分泌坚韧，遇见勇气内在强大；她是泪珠，眼因善良泪目，而愈益清明，心因经历忧患，而愈益温厚。女人很软，世界很硬，愿温柔善待她们的美。</p>
++							</a></li>
++							<li><a href="">
++								09 Mar 2017
++							</a></li>
++							<li style="border-right: none;"><a href="">WATCH THE COMPLET WORKS </a></li>
++						</ul>
++					</div>	
++				</div>
++				<div class="system">
++					<div class="pic">
++						<img src="image/59.jpg" alt="" width="100%">
++					</div>
++					<div class="record">
++						<ul>
++							<li>
++								<a href=""><h1><b>CHUNXIAQIUDONG </b></h1>
++								<p>REVERSION</p>
++								</a>
++							</li>
++							<li><a href="">
++								<p>万物四季：春暖，含羞欲语挑逗；夏狂，洪水猛兽吞噬；秋收，内敛温火撩人；冬寒，似若冰霜奈何。人似四季，可爱和可恨一般，极致和极陋一般。无美无丑，不过特点而已。2016薇拉新年伊始，春夏秋冬，一年之计。</p>
++							</a></li>
++							<li><a href="">
++								09 Mar 2017
++							</a></li>
++							<li style="border-right: none;"><a href="">WATCH THE COMPLET WORKS </a></li>
++						</ul>
++					</div>	
++				</div>
++				<div class="system">
++					<div class="pic">
++						<img src="image/60.jpg" alt="" width="100%">
++					</div>
++					<div class="record">
++						<ul>
++							<li>
++								<a href=""><h1><b>追梦花园 </b></h1>
++								<p>REVERSION</p>
++								</a>
++							</li>
++							<li><a href="">
++								<p>抚摸一个梦，就像抚摸一只野猫，从险象环生现实中抽离。该以什么样的姿态面对，以梦为马，随处栖息。那必定是一个新鲜地，美丽又危险才有兴趣。繁茂的植物和梦一样肆意，像天马行空的思绪抒发着自己。一种奢侈的状态，自顾自的美丽。</p>
++							</a></li>
++							<li><a href="">
++								09 Mar 2017
++							</a></li>
++							<li style="border-right: none;"><a href="">WATCH THE COMPLET WORKS </a></li>
++						</ul>
++					</div>	
++				</div>
++				<div class="system">
++					<div class="pic">
++						<img src="image/61.jpg" alt="" width="100%">
++					</div>
++					<div class="record">
++						<ul>
++							<li>
++								<a href=""><h1><b>晴川胜景 </b></h1>
++								<p>REVERSION</p>
++								</a>
++							</li>
++							<li><a href="">
++								<p>铁门关上，眺望四周，芳菲江城，三岸尽在眼底，一江飞泻，对岸黄鹄矶头，武昌滩头，美不胜收。再望汉臬，高楼林立。想同余秋雨一样写一部《余秋雨的历史散文》，一部诸子百家哲理般的历史散文。无奈提笔却变得不善辞令。闭目却画面浮想联翩。</p>
++							</a></li>
++							<li><a href="">
++								09 Mar 2017
++							</a></li>
++							<li style="border-right: none;"><a href="">WATCH THE COMPLET WORKS </a></li>
++						</ul>
++					</div>	
++				</div>
++				<div class="system">
++					<div class="pic">
++						<img src="image/62.jpg" alt="" width="100%">
++					</div>
++					<div class="record">
++						<ul>
++							<li>
++								<a href=""><h1><b>晴川胜景 </b></h1>
++								<p>REVERSION</p>
++								</a>
++							</li>
++							<li><a href="">
++								<p>铁门关上，眺望四周，芳菲江城，三岸尽在眼底，一江飞泻，对岸黄鹄矶头，武昌滩头，美不胜收。再望汉臬，高楼林立。想同余秋雨一样写一部《余秋雨的历史散文》，一部诸子百家哲理般的历史散文。无奈提笔却变得不善辞令。闭目却画面浮想联翩。</p>
++							</a></li>
++							<li><a href="">
++								09 Mar 2017
++							</a></li>
++							<li style="border-right: none;"><a href="">WATCH THE COMPLET WORKS </a></li>
++						</ul>
++					</div>	
++				</div>	
++		</div>
++		<!-- 分页 -->
++			<nav aria-label="Page navigation">
++  				<ul class="pagination fr">
++    				<li>
++     				 <a href="#" aria-label="Previous">
++       				 <span aria-hidden="true">&laquo;</span>
++     				 </a>
++    				 </li>
++   					 <li><a href="#">1</a></li>
++    				 <li><a href="#">2</a></li>
++    				 <li><a href="#">3</a></li>
++    				 <li><a href="#">4</a></li>
++    				 <li><a href="#">5</a></li>
++    				 <li>
++     				 <a href="#" aria-label="Next">
++       				 <span aria-hidden="true">&raquo;</span>
++     				 </a>
++    				</li>
++  				</ul>
++			</nav>
++	</div>
++	<!-- 咨询区 -->
++	<div class="ask">
++			<ul>
++				<li class="clearfix">
++					<div class="fl"><img src="imge/m1.png"></div>
++					<div class="right fl">
++						<h4>Consultation</h4>
++						<p><b>快速在线咨询即时了解薇拉第一手信息,请选择您最近的服务中心咨询</b></p>
++					</div>
++				</li>
++				<li class="clearfix">
++					<div class="fl"><img src="imge/m2.png"></div>
++					<div class="right fl">
++						<h4>Schedule</h4>
++						<p><b>薇拉摄影档期实际情况请咨询店
++					请在婚期确认前3-6个月预定内客服</b></p>
++					</div>
++				</li>
++				<li class="clearfix">
++					<div class="fl"><img src="imge/m3.png"></div>
++					<div class="right fl">
++						<h4>Shoot tips</h4>
++						<p><b>薇拉摄影更多拍摄须知
++						请点击这里查看</b></p>
++					</div>
++				</li>
++				<li class="clearfix" style="border-right: none;">
++					<div class="fl"><img src="imge/m4.png"></div>
++					<div class="right fl">
++						<h4>Address</h4>
++						<p><b>薇拉摄影武汉三镇十店
++						请选择您最近的服务中心进行咨询</b></p>
++					</div>
++				</li>
++			</ul>
++		</div>
++		<div class="sj">
++			<a href=""></a>
++		</div>
++		<!-- 你心目中的薇拉 -->
++		<div class="your">
++		<a href=""><img src="img/page_you.jpg" alt=""></a>
++	</div>
++	<!-- footer区 -->
++	<div class="footer">
++		<div class="center-box content">
++			<div class="nav">
++			<img src="img/link.png" alt="">
++			</div>
++			<div class="list">
++				<ul class="clearfix">
++					<li>
++						<a href=""><img src="img/foot1.png" alt=""></a>
++						<ul class="list-in">
++							<li><a href="">薇拉摄影研创中心</a></li>
++							<li><a href="">薇拉摄影高端客户服务中心</a></li>
++							<li><a href="">薇拉皇后高端礼服馆</a></li>
++							<li><a href="">薇拉上善高端婚礼造型定制馆</a></li>
++						</ul>
++					</li>
++					<li>
++						<a href=""><img src="img/foot2.png" alt=""></a>
++						<ul class="list-in">
++							<li><a href="">薇拉品牌介绍</a></li>
++							<li><a href="">薇拉三镇十二店布局一览</a></li>
++							<li><a href=""><font color="#ffca00">薇拉摄影人才计划</font></a></li>
++							<li><a href="">了解你会爱上薇拉的理由</a></li>
++							<li><a href="">免责声明及法律条款</a></li>
++
++						</ul>
++					</li>
++					<li>
++						<a href=""><img src="img/foot3.png" alt=""></a>
++						<ul class="list-in">
++							<li><a href="">客片大赏</a></li>
++							<li><a href=""><font color="#ffca00">每日客片更新</font></a></li>
++							<li><a href="">薇拉@漢系列作品</a></li>
++							<li><a href="">时尚态度系列作品</a></li>
++							<li><a href="">高端定制系列作品</a></li>
++							<li><a href="">薇拉女神系列</a></li>
++						</ul>
++					</li>
++					<li>
++						<a href=""><img src="img/foot4.png" alt=""></a>
++						<ul class="list-in">
++							<li><a href="">最新新闻公告</a></li>
++							<li><a href="">活动进行时……</a></li>
++							<li><a href="">薇拉印花</a></li>
++							<li><a href="">WOW！MAGAZINE薇拉画报</a></li>
++						</ul>
++					</li>
++				</ul>
++			</div>
++			<div class="icon">
++				<a href="" style="background: url(img/footer_icon.png) 0 0 no-repeat;width: 120px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -140px 0 no-repeat;width: 110px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -280px 0 no-repeat;width: 110px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -400px 0 no-repeat;width: 140px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -550px 0 no-repeat;width: 160px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -720px 0 no-repeat;width: 110px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -860px 0 no-repeat;width: 150px;"></a>
++			</div>
++			<div class="last clearfix">
++				<div class="last-l fl">
++					<a href=""><img src="img/61.jpg" alt=""></a>
++					<a href=""><img src="img/62.jpg" alt=""></a>
++					<a href=""><img src="img/63.jpg" alt=""></a>
++					<a href=""><img src="img/64.jpg" alt=""></a>
++					<a href=""><img src="img/65.jpg" alt=""></a>
++				</div>
++				<div class="last-r fr">
++					<p>AVIVA 及 薇拉摄影均为注册商标，薇拉摄影网站界面设计及程序设计均以申请国家知识产权及著作权。未经允许不得转载抄袭，薇拉摄影对此保留法律诉讼的权利。</p>
++					<p>AVIVA AND AVIVA PHOTO ARE REGISTERED TRADEMARKS PHOTOGRAPHY, OUR WEBSITE INTERFACE DESIGN AND PROGRAMMING ARE APPLIED FOR NATIONAL INTELLECTUAL PROPERTY RIGHTS AND COPYRIGHTS. SHALL NOT BE REPRODUCED WITHOUT PERMISSION PLAGIARISM, WHICH WE KEEP THE RIGHT TO LEGAL PROCEEDINGS</p>
++					<p>视觉设计 & 网站建设 
++						<a href="">衍艺广告</a>
++						<a href=""><img src="img/logo03.png" alt=""></a>版权所有：武汉市汉阳区薇拉摄影店
++					</p>
++				</div>
++			</div>
++		</div>
++	</div>
++	<!-- 固定区 -->
++	<div class="fixed  clearfix">
++		<div class="ff fl">
++			<a><img src="img/btn06.png" alt="">
++			<span>400-0825-818</span></a>
++		</div>
++		<div class="fj fl">
++			<a href="">首页</a>
++			<a href="">拍摄风格选择</a>
++			<a href="">客片大赏</a>
++			<a href="">YOU</a>
++			<a href="">咨询档期</a>
++		</div>
++		<div class="fm fr">
++			<a href="" style="position: relative;top: -1px">
++				<img src="img/kf.gif" height="54">
++			</a>
++			<a href="">
++				<img src="img/back.png" alt="">
++			</a>
++		</div>
++	</div>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/guest.html b/guest.html
+new file mode 100644
+index 0000000..1865819
+--- /dev/null
++++ b/guest.html
+@@ -0,0 +1,287 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++	<meta charset="UTF-8">
++	<title>guest</title>
++	<link rel="stylesheet" href="css/base.css" type="text/css">
++	<link rel="stylesheet" href="css/guest.css" type="text/css">
++	<!DOCTYPE html>
++	<html lang="en">
++	<head>
++		<meta charset="UTF-8">
++		 <meta http-equiv="X-UA-Compatible" content="IE=edge">
++	    <meta name="viewport" content="width=device-width, initial-scale=1">
++		<title>Document</title>
++		<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
++	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
++	 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
++	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
++	    <!--[if lt IE 9]>
++	      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
++	      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
++	    <![endif]-->
++	
++	
++	
++	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
++	
++	</head>
++	<body>
++		
++	 <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
++	 <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
++	</body>
++	</html>
++</head>
++<body>
++	<!-- 导航 -->
++	<div class="header">
++		<div class="center-box clearfix">
++			<h1 class="fl"><a href="">
++				<img src="img/logo01.jpg">
++			</a></h1>
++			<ul class="fl clearfix">
++				<li style="border-left: none;"><a href="page2.html">快速了解薇拉</a></li>
++				<li class="style-p"><a href="">拍摄风格选择</a>
++					<ul class="style-f">
++						<li><a href="special.html">薇拉@漢</a></li>
++						<li><a href="fasion.html">时尚•态度</a></li>
++						<li><a href="">高端定制</a></li>
++						<li><a href="">薇拉女神</a></li>
++					</ul>
++
++				</li>
++				<li class="style-p"><a href="">客片大赏</a>
++					<ul class="style-f">
++						<li><a href="update.html">每日更新</a></li>
++						<li><a href="guest.html">客片大赏</a></li>
++					</ul>
++				</li>
++				<li><a href="">资询档期</a></li>
++				<li><a href="">查找店面</a></li>
++				<li style="border-right: none;"><a href="">YOU</a></li>
++			</ul>
++			<div class="location">
++				<ul class="clearfix">
++					<li><a href="">武汉</a></li>
++					<li><a href="">深圳</a></li>
++					<li><a href="">三亚</a></li>
++				</ul>
++			</div>
++		</div>
++	</div>
++	<!-- 轮播图及文字 -->
++	<div class="top content-box clearfix">
++		<div class="top-left fl">
++			<div class="tp"><img src="img2/11.jpg" alt=""></div>
++			<div class="wz">
++				<img src="image/42.jpg" alt="">
++				<p>薇拉在摄影上所坚持DIY （DO IT YOURSELF）精神，适时地拓宽自己的风格范围。2013年夏，薇拉以广众先驱之名宣誓崭新风格主权。逐一发布全新摄影风格作品《时尚·态度》系列。</p>
++				<p>在我们看来，时尚是一种生活态度，是一种勇敢去想、勇敢去做的态度。时尚不是某个东西，时尚也不单纯是追逐某种流行趋势，它可能成为未来的人们普遍接受的东西，但在眼下，时尚绝对是少数人敢于尝试的冒险的生活方式。</p>
++			</div>
++			<div class="game">
++				<h1><span>技术</span>，永远是影楼的<span>核心竞争力</span>。</h1>
++				<p>我们崇尚独立。INDIE(独立)是一种态度，是一种对于摄影创作的态度，推而广之，它同样也是薇拉广大摄影师对于时尚取舍的态度，我们欣赏照片或多或少都是在慢慢形成自己的审美取向，形成一种不受外界干扰的独立态度，必要时CHECK OUR ATTITUDE,保持清醒且特立独行的头脑。淋漓尽致地展现薇拉摄影的《时尚·态度》</p>
++			</div>
++			<div class="pha">
++				<p>在《时尚·态度》的创作中，我们更加注重婚纱礼服的品质和细节。更加注重妆容的精致与和谐。一幅幅风尚婚纱杂志大片跃然而现。</p>
++				<p>《薇拉@汉》风格的多样化结合不同诉求的定制化，在庞大的客照市场中不断得到口碑验证。《薇拉@汉》七大分支风格：
++					<a href="">视觉元素系列,</a>
++					<a href="">中国新娘系列,</a>
++					<a href="">‘韩’系列,</a>
++					<a href="">健康系列,</a>
++					<a href="">北海斋系列,</a>
++					<a href="">复古风潮系列,</a>
++					<a href="">幸福纪实系列,</a>
++					七大系列多种风格玩味时尚婚纱.</p>
++			</div>
++			<div class="contact clearfix">
++				<div class="cf fl">
++					<p><a href="">点击联系qq客服</a></p>
++					<p><a href="">点击访问微博联系客服</a></p>
++				</div>
++				<div class="cr fr">
++					<img src="image/03.jpg" alt="">
++				</div>
++			</div>
++			<div class="at">
++				<p>访客观网指南：尊敬的访客您好！欢迎来到薇拉摄影官方网站《薇拉@漢》栏目。 您在这里会看到来自薇拉摄影的各种风格样片。您可以点击这里联系我们的客服，告诉他/她您所心仪的风格，同时 您也可以要求观看每个风格样片所对应的客片。</p>
++				<p>VISITORS GUIDE NETWORK VIEW: DEAR VISITORS HELLO! WELCOME TO THE OFFICIAL WEBSITE OF AVIVA "VERA @ HAN" SECTION.HERE YOU'LL SEE A VARIETY OF STYLES FROM THE SAMPLE OF AVIVA. YOU CAN CLICK HERE TO CONTACT OUR CUSTOMER SERVICE, SUETELL HIM / HER THAT YOU FAVORITE STYLE, BUT YOU CAN ALSO ASK TO SEE SAMPLES OF EACH STYLE SHEET CORRESPONDING TO THE CUSTOMER</p>
++			</div>
++		</div>
++		<div class="top-right fr">
++			<img src="img2/00.jpg" height="1020">
++		</div>
++	</div>
++    <!-- nav区 -->
++	<div class="nav-b content-box">
++		<ul>
++			<li><a class="active" href="" style="border-bottom:8px solid #000; ">客片大赏</a></li>
++			<li><a href="" style="border-bottom:8px solid #f00;">汉阳造总部</a></li>
++			<li><a href="" style="border-bottom:8px solid #0045b6;">楚河汉街时尚文化馆</a></li>
++			<li><a href="" style="border-bottom:8px solid #168444;">光谷概念馆</a></li>
++			<li><a  href="" style="border-bottom:8px solid #ff9600; border-right:none;">汉口领驭馆</a></li>
++		</ul>
++	</div>
++	<div class="data content-box">
++		<span>1024</span>
++		<span>18870</span>
++	</div>
++	<!-- 图片区 -->
++	<div class="pic content-box">
++		<div class="p"><img src="img2/21.jpg" alt=""></div>
++		<div class="p"><img src="img2/22.jpg" alt=""></div>
++		<div class="p"><img src="img2/23.jpg" alt=""></div>
++		<div class="p"><img src="img2/24.jpg" alt=""></div>
++		<div class="p"><img src="img2/25.jpg" alt=""></div>
++	</div>
++	<div class="pic content-box">
++		<div class="p"><img src="img2/31.jpg" alt=""></div>
++		<div class="p"><img src="img2/32.jpg" alt=""></div>
++		<div class="p"><img src="img2/33.jpg" alt=""></div>
++		<div class="p"><img src="img2/34.jpg" alt=""></div>
++		<div class="p"><img src="img2/35.jpg" alt=""></div>
++	</div>
++	<div class="pic content-box">
++		<div class="p"><img src="img2/41.jpg" alt=""></div>
++		<div class="p"><img src="img2/42.jpg" alt=""></div>
++		<div class="p"><img src="img2/43.jpg" alt=""></div>
++		<div class="p"><img src="img2/44.jpg" alt=""></div>
++		<div class="p"><img src="img2/45.jpg" alt=""></div>
++	</div>
++	<div class="pic content-box">
++		<div class="p"><img src="img2/51.jpg" alt=""></div>
++		<div class="p"><img src="img2/52.jpg" alt=""></div>
++		<div class="p"><img src="img2/53.jpg" alt=""></div>
++		<div class="p"><img src="img2/54.jpg" alt=""></div>
++		<div class="p"><img src="img2/55.jpg" alt=""></div>
++	</div>
++	<!-- 分页区 -->
++	<nav aria-label="Page navigation">
++  				<ul class="pagination fr">
++    				<li>
++     				 <a href="#" aria-label="Previous">
++       				 <span aria-hidden="true">&laquo;</span>
++     				 </a>
++    				 </li>
++   					 <li><a href="#">1</a></li>
++    				 <li><a href="#">2</a></li>
++    				 <li><a href="#">3</a></li>
++    				 <li><a href="#">4</a></li>
++    				 <li><a href="#">5</a></li>
++    				 <li><a href="#">6</a></li>
++    				 <li><a href="#">7</a></li>
++    				 <li><a href="#">8</a></li>
++    				 <li><a href="#">9</a></li>
++    				 <li><a href="#">10</a></li>
++    				 <li><a href="#">....</a></li>
++    				 <li>
++     				 <a href="#" aria-label="Next">
++       				 <span aria-hidden="true">&raquo;</span>
++     				 </a>
++    				</li>
++  				</ul>
++		</nav>
++
++	<!-- footer区 -->
++	<div class="footer">
++		<div class="center-box content">
++			<div class="nav">
++			<img src="img/link.png" alt="">
++			</div>
++			<div class="list">
++				<ul class="clearfix">
++					<li>
++						<a href=""><img src="img/foot1.png" alt=""></a>
++						<ul class="list-in">
++							<li><a href="">薇拉摄影研创中心</a></li>
++							<li><a href="">薇拉摄影高端客户服务中心</a></li>
++							<li><a href="">薇拉皇后高端礼服馆</a></li>
++							<li><a href="">薇拉上善高端婚礼造型定制馆</a></li>
++						</ul>
++					</li>
++					<li>
++						<a href=""><img src="img/foot2.png" alt=""></a>
++						<ul class="list-in">
++							<li><a href="">薇拉品牌介绍</a></li>
++							<li><a href="">薇拉三镇十二店布局一览</a></li>
++							<li><a href=""><font color="#ffca00">薇拉摄影人才计划</font></a></li>
++							<li><a href="">了解你会爱上薇拉的理由</a></li>
++							<li><a href="">免责声明及法律条款</a></li>
++
++						</ul>
++					</li>
++					<li>
++						<a href=""><img src="img/foot3.png" alt=""></a>
++						<ul class="list-in">
++							<li><a href="">客片大赏</a></li>
++							<li><a href=""><font color="#ffca00">每日客片更新</font></a></li>
++							<li><a href="">薇拉@漢系列作品</a></li>
++							<li><a href="">时尚态度系列作品</a></li>
++							<li><a href="">高端定制系列作品</a></li>
++							<li><a href="">薇拉女神系列</a></li>
++						</ul>
++					</li>
++					<li>
++						<a href=""><img src="img/foot4.png" alt=""></a>
++						<ul class="list-in">
++							<li><a href="">最新新闻公告</a></li>
++							<li><a href="">活动进行时……</a></li>
++							<li><a href="">薇拉印花</a></li>
++							<li><a href="">WOW！MAGAZINE薇拉画报</a></li>
++						</ul>
++					</li>
++				</ul>
++			</div>
++			<div class="icon">
++				<a href="" style="background: url(img/footer_icon.png) 0 0 no-repeat;width: 120px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -140px 0 no-repeat;width: 110px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -280px 0 no-repeat;width: 110px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -400px 0 no-repeat;width: 140px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -550px 0 no-repeat;width: 160px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -720px 0 no-repeat;width: 110px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -860px 0 no-repeat;width: 150px;"></a>
++			</div>
++			<div class="last clearfix">
++				<div class="last-l fl">
++					<a href=""><img src="img/61.jpg" alt=""></a>
++					<a href=""><img src="img/62.jpg" alt=""></a>
++					<a href=""><img src="img/63.jpg" alt=""></a>
++					<a href=""><img src="img/64.jpg" alt=""></a>
++					<a href=""><img src="img/65.jpg" alt=""></a>
++				</div>
++				<div class="last-r fr">
++					<p>AVIVA 及 薇拉摄影均为注册商标，薇拉摄影网站界面设计及程序设计均以申请国家知识产权及著作权。未经允许不得转载抄袭，薇拉摄影对此保留法律诉讼的权利。</p>
++					<p>AVIVA AND AVIVA PHOTO ARE REGISTERED TRADEMARKS PHOTOGRAPHY, OUR WEBSITE INTERFACE DESIGN AND PROGRAMMING ARE APPLIED FOR NATIONAL INTELLECTUAL PROPERTY RIGHTS AND COPYRIGHTS. SHALL NOT BE REPRODUCED WITHOUT PERMISSION PLAGIARISM, WHICH WE KEEP THE RIGHT TO LEGAL PROCEEDINGS</p>
++					<p>视觉设计 & 网站建设 
++						<a href="">衍艺广告</a>
++						<a href=""><img src="img/logo03.png" alt=""></a>版权所有：武汉市汉阳区薇拉摄影店
++					</p>
++				</div>
++			</div>
++		</div>
++	</div>
++	<!-- 固定区 -->
++	<div class="fixed  clearfix">
++		<div class="ff fl">
++			<a><img src="img/btn06.png" alt="">
++			<span>400-0825-818</span></a>
++		</div>
++		<div class="fj fl">
++			<a href="">首页</a>
++			<a href="">拍摄风格选择</a>
++			<a href="">客片大赏</a>
++			<a href="">YOU</a>
++			<a href="">咨询档期</a>
++		</div>
++		<div class="fm fr">
++			<a href="" style="position: relative;top: -1px">
++				<img src="img/kf.gif" height="54">
++			</a>
++			<a href="" id="#top">
++				<img src="img/back.png" alt="">
++			</a>
++		</div>
++	</div>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/image/01.jpg b/image/01.jpg
+new file mode 100644
+index 0000000..bd78bcd
+Binary files /dev/null and b/image/01.jpg differ
+diff --git a/image/02.jpg b/image/02.jpg
+new file mode 100644
+index 0000000..375dbe7
+Binary files /dev/null and b/image/02.jpg differ
+diff --git a/image/03.jpg b/image/03.jpg
+new file mode 100644
+index 0000000..fd919ff
+Binary files /dev/null and b/image/03.jpg differ
+diff --git a/image/04.gif b/image/04.gif
+new file mode 100644
+index 0000000..8b7678b
+Binary files /dev/null and b/image/04.gif differ
+diff --git a/image/05.gif b/image/05.gif
+new file mode 100644
+index 0000000..fac7bf7
+Binary files /dev/null and b/image/05.gif differ
+diff --git a/image/11.jpg b/image/11.jpg
+new file mode 100644
+index 0000000..7f9294e
+Binary files /dev/null and b/image/11.jpg differ
+diff --git a/image/12.jpg b/image/12.jpg
+new file mode 100644
+index 0000000..3373399
+Binary files /dev/null and b/image/12.jpg differ
+diff --git a/image/13.jpg b/image/13.jpg
+new file mode 100644
+index 0000000..7cc3276
+Binary files /dev/null and b/image/13.jpg differ
+diff --git a/image/14.jpg b/image/14.jpg
+new file mode 100644
+index 0000000..6107a54
+Binary files /dev/null and b/image/14.jpg differ
+diff --git a/image/15.jpg b/image/15.jpg
+new file mode 100644
+index 0000000..dc662ff
+Binary files /dev/null and b/image/15.jpg differ
+diff --git a/image/21.jpg b/image/21.jpg
+new file mode 100644
+index 0000000..0de8ca1
+Binary files /dev/null and b/image/21.jpg differ
+diff --git a/image/22.jpg b/image/22.jpg
+new file mode 100644
+index 0000000..215a831
+Binary files /dev/null and b/image/22.jpg differ
+diff --git a/image/23.jpg b/image/23.jpg
+new file mode 100644
+index 0000000..01c5b74
+Binary files /dev/null and b/image/23.jpg differ
+diff --git a/image/24.jpg b/image/24.jpg
+new file mode 100644
+index 0000000..60d681e
+Binary files /dev/null and b/image/24.jpg differ
+diff --git a/image/25.jpg b/image/25.jpg
+new file mode 100644
+index 0000000..0c9632c
+Binary files /dev/null and b/image/25.jpg differ
+diff --git a/image/26.jpg b/image/26.jpg
+new file mode 100644
+index 0000000..dd4f3a7
+Binary files /dev/null and b/image/26.jpg differ
+diff --git a/image/27.jpg b/image/27.jpg
+new file mode 100644
+index 0000000..0c06f65
+Binary files /dev/null and b/image/27.jpg differ
+diff --git a/image/28.jpg b/image/28.jpg
+new file mode 100644
+index 0000000..5ff8da7
+Binary files /dev/null and b/image/28.jpg differ
+diff --git a/image/31.jpg b/image/31.jpg
+new file mode 100644
+index 0000000..2623db0
+Binary files /dev/null and b/image/31.jpg differ
+diff --git a/image/32.png b/image/32.png
+new file mode 100644
+index 0000000..4c60b9b
+Binary files /dev/null and b/image/32.png differ
+diff --git a/image/33.jpg b/image/33.jpg
+new file mode 100644
+index 0000000..b5461f4
+Binary files /dev/null and b/image/33.jpg differ
+diff --git a/image/34.png b/image/34.png
+new file mode 100644
+index 0000000..24c2aea
+Binary files /dev/null and b/image/34.png differ
+diff --git a/image/35.jpg b/image/35.jpg
+new file mode 100644
+index 0000000..8533c7a
+Binary files /dev/null and b/image/35.jpg differ
+diff --git a/image/36.jpg b/image/36.jpg
+new file mode 100644
+index 0000000..27cb37f
+Binary files /dev/null and b/image/36.jpg differ
+diff --git a/image/41.jpg b/image/41.jpg
+new file mode 100644
+index 0000000..8aed0a5
+Binary files /dev/null and b/image/41.jpg differ
+diff --git a/image/42.jpg b/image/42.jpg
+new file mode 100644
+index 0000000..375dbe7
+Binary files /dev/null and b/image/42.jpg differ
+diff --git a/image/43.gif b/image/43.gif
+new file mode 100644
+index 0000000..1035def
+Binary files /dev/null and b/image/43.gif differ
+diff --git a/image/51.jpg b/image/51.jpg
+new file mode 100644
+index 0000000..2b7cde4
+Binary files /dev/null and b/image/51.jpg differ
+diff --git a/image/52.jpg b/image/52.jpg
+new file mode 100644
+index 0000000..55bbe90
+Binary files /dev/null and b/image/52.jpg differ
+diff --git a/image/53.jpg b/image/53.jpg
+new file mode 100644
+index 0000000..4f6cbd5
+Binary files /dev/null and b/image/53.jpg differ
+diff --git a/image/54.jpg b/image/54.jpg
+new file mode 100644
+index 0000000..0eb3b53
+Binary files /dev/null and b/image/54.jpg differ
+diff --git a/image/55.jpg b/image/55.jpg
+new file mode 100644
+index 0000000..7df2423
+Binary files /dev/null and b/image/55.jpg differ
+diff --git a/image/56.jpg b/image/56.jpg
+new file mode 100644
+index 0000000..1443997
+Binary files /dev/null and b/image/56.jpg differ
+diff --git a/image/57.jpg b/image/57.jpg
+new file mode 100644
+index 0000000..1443997
+Binary files /dev/null and b/image/57.jpg differ
+diff --git a/image/58.jpg b/image/58.jpg
+new file mode 100644
+index 0000000..a258978
+Binary files /dev/null and b/image/58.jpg differ
+diff --git a/image/59.jpg b/image/59.jpg
+new file mode 100644
+index 0000000..ef298e9
+Binary files /dev/null and b/image/59.jpg differ
+diff --git a/image/60.jpg b/image/60.jpg
+new file mode 100644
+index 0000000..0f081d0
+Binary files /dev/null and b/image/60.jpg differ
+diff --git a/image/61.jpg b/image/61.jpg
+new file mode 100644
+index 0000000..9c23293
+Binary files /dev/null and b/image/61.jpg differ
+diff --git a/image/62.jpg b/image/62.jpg
+new file mode 100644
+index 0000000..eab95af
+Binary files /dev/null and b/image/62.jpg differ
+diff --git a/image/bg.jpg b/image/bg.jpg
+new file mode 100644
+index 0000000..67a948f
+Binary files /dev/null and b/image/bg.jpg differ
+diff --git a/image/bg03.jpg b/image/bg03.jpg
+new file mode 100644
+index 0000000..992b0f2
+Binary files /dev/null and b/image/bg03.jpg differ
+diff --git a/image/bg2.jpg b/image/bg2.jpg
+new file mode 100644
+index 0000000..2850add
+Binary files /dev/null and b/image/bg2.jpg differ
+diff --git a/image/bg4.jpg b/image/bg4.jpg
+new file mode 100644
+index 0000000..2af7a5f
+Binary files /dev/null and b/image/bg4.jpg differ
+diff --git a/img/01.jpg b/img/01.jpg
+new file mode 100644
+index 0000000..7e5ff4d
+Binary files /dev/null and b/img/01.jpg differ
+diff --git a/img/02.jpg b/img/02.jpg
+new file mode 100644
+index 0000000..c372ffd
+Binary files /dev/null and b/img/02.jpg differ
+diff --git a/img/03.jpg b/img/03.jpg
+new file mode 100644
+index 0000000..d8abfa1
+Binary files /dev/null and b/img/03.jpg differ
+diff --git a/img/04.JPG b/img/04.JPG
+new file mode 100644
+index 0000000..1db8508
+Binary files /dev/null and b/img/04.JPG differ
+diff --git a/img/05.jpg b/img/05.jpg
+new file mode 100644
+index 0000000..11a3575
+Binary files /dev/null and b/img/05.jpg differ
+diff --git a/img/11.jpg b/img/11.jpg
+new file mode 100644
+index 0000000..410c280
+Binary files /dev/null and b/img/11.jpg differ
+diff --git a/img/12.jpeg b/img/12.jpeg
+new file mode 100644
+index 0000000..756cb36
+Binary files /dev/null and b/img/12.jpeg differ
+diff --git a/img/21.jpg b/img/21.jpg
+new file mode 100644
+index 0000000..ac317a9
+Binary files /dev/null and b/img/21.jpg differ
+diff --git a/img/22.jpg b/img/22.jpg
+new file mode 100644
+index 0000000..0318a4b
+Binary files /dev/null and b/img/22.jpg differ
+diff --git a/img/23.jpg b/img/23.jpg
+new file mode 100644
+index 0000000..22e6ca7
+Binary files /dev/null and b/img/23.jpg differ
+diff --git a/img/24.jpg b/img/24.jpg
+new file mode 100644
+index 0000000..fc7f4f2
+Binary files /dev/null and b/img/24.jpg differ
+diff --git a/img/31.jpg b/img/31.jpg
+new file mode 100644
+index 0000000..45b491d
+Binary files /dev/null and b/img/31.jpg differ
+diff --git a/img/32.jpg b/img/32.jpg
+new file mode 100644
+index 0000000..b1f0109
+Binary files /dev/null and b/img/32.jpg differ
+diff --git a/img/33.jpg b/img/33.jpg
+new file mode 100644
+index 0000000..b694bbb
+Binary files /dev/null and b/img/33.jpg differ
+diff --git a/img/41.jpg b/img/41.jpg
+new file mode 100644
+index 0000000..8b766f0
+Binary files /dev/null and b/img/41.jpg differ
+diff --git a/img/61.jpg b/img/61.jpg
+new file mode 100644
+index 0000000..f04f16c
+Binary files /dev/null and b/img/61.jpg differ
+diff --git a/img/62.jpg b/img/62.jpg
+new file mode 100644
+index 0000000..a6a1027
+Binary files /dev/null and b/img/62.jpg differ
+diff --git a/img/63.jpg b/img/63.jpg
+new file mode 100644
+index 0000000..5ce08f2
+Binary files /dev/null and b/img/63.jpg differ
+diff --git a/img/64.jpg b/img/64.jpg
+new file mode 100644
+index 0000000..2e47fd4
+Binary files /dev/null and b/img/64.jpg differ
+diff --git a/img/65.jpg b/img/65.jpg
+new file mode 100644
+index 0000000..4c844d6
+Binary files /dev/null and b/img/65.jpg differ
+diff --git a/img/back.png b/img/back.png
+new file mode 100644
+index 0000000..9fd8fbd
+Binary files /dev/null and b/img/back.png differ
+diff --git a/img/banner.jpg b/img/banner.jpg
+new file mode 100644
+index 0000000..a8b36a7
+Binary files /dev/null and b/img/banner.jpg differ
+diff --git a/img/btn06.png b/img/btn06.png
+new file mode 100644
+index 0000000..8fb1773
+Binary files /dev/null and b/img/btn06.png differ
+diff --git a/img/d1.jpg b/img/d1.jpg
+new file mode 100644
+index 0000000..89b20a4
+Binary files /dev/null and b/img/d1.jpg differ
+diff --git a/img/d10.jpg b/img/d10.jpg
+new file mode 100644
+index 0000000..86eddba
+Binary files /dev/null and b/img/d10.jpg differ
+diff --git a/img/d2.jpg b/img/d2.jpg
+new file mode 100644
+index 0000000..60d681e
+Binary files /dev/null and b/img/d2.jpg differ
+diff --git a/img/d3.jpg b/img/d3.jpg
+new file mode 100644
+index 0000000..8708fa3
+Binary files /dev/null and b/img/d3.jpg differ
+diff --git a/img/d4.jpg b/img/d4.jpg
+new file mode 100644
+index 0000000..494ec3d
+Binary files /dev/null and b/img/d4.jpg differ
+diff --git a/img/d5.jpg b/img/d5.jpg
+new file mode 100644
+index 0000000..63d583d
+Binary files /dev/null and b/img/d5.jpg differ
+diff --git a/img/d6.jpg b/img/d6.jpg
+new file mode 100644
+index 0000000..4d63e37
+Binary files /dev/null and b/img/d6.jpg differ
+diff --git a/img/d7.jpg b/img/d7.jpg
+new file mode 100644
+index 0000000..1637815
+Binary files /dev/null and b/img/d7.jpg differ
+diff --git a/img/d8.jpg b/img/d8.jpg
+new file mode 100644
+index 0000000..e7445e4
+Binary files /dev/null and b/img/d8.jpg differ
+diff --git a/img/d9.jpg b/img/d9.jpg
+new file mode 100644
+index 0000000..94a0c88
+Binary files /dev/null and b/img/d9.jpg differ
+diff --git a/img/dd.jpg b/img/dd.jpg
+new file mode 100644
+index 0000000..006768d
+Binary files /dev/null and b/img/dd.jpg differ
+diff --git a/img/foot1.png b/img/foot1.png
+new file mode 100644
+index 0000000..98d0853
+Binary files /dev/null and b/img/foot1.png differ
+diff --git a/img/foot2.png b/img/foot2.png
+new file mode 100644
+index 0000000..b2c5c54
+Binary files /dev/null and b/img/foot2.png differ
+diff --git a/img/foot3.png b/img/foot3.png
+new file mode 100644
+index 0000000..2a23c4d
+Binary files /dev/null and b/img/foot3.png differ
+diff --git a/img/foot4.png b/img/foot4.png
+new file mode 100644
+index 0000000..0c51d7a
+Binary files /dev/null and b/img/foot4.png differ
+diff --git a/img/footer_icon.png b/img/footer_icon.png
+new file mode 100644
+index 0000000..79eef29
+Binary files /dev/null and b/img/footer_icon.png differ
+diff --git a/img/kf.gif b/img/kf.gif
+new file mode 100644
+index 0000000..4b03968
+Binary files /dev/null and b/img/kf.gif differ
+diff --git a/img/link.png b/img/link.png
+new file mode 100644
+index 0000000..0b59397
+Binary files /dev/null and b/img/link.png differ
+diff --git a/img/logo01.jpg b/img/logo01.jpg
+new file mode 100644
+index 0000000..de284dc
+Binary files /dev/null and b/img/logo01.jpg differ
+diff --git a/img/logo02.jpg b/img/logo02.jpg
+new file mode 100644
+index 0000000..fa49cf7
+Binary files /dev/null and b/img/logo02.jpg differ
+diff --git a/img/logo03.png b/img/logo03.png
+new file mode 100644
+index 0000000..7cd85ad
+Binary files /dev/null and b/img/logo03.png differ
+diff --git a/img/ns.jpg b/img/ns.jpg
+new file mode 100644
+index 0000000..acfb2f6
+Binary files /dev/null and b/img/ns.jpg differ
+diff --git a/img/page.jpg b/img/page.jpg
+new file mode 100644
+index 0000000..8b766f0
+Binary files /dev/null and b/img/page.jpg differ
+diff --git a/img/page_you.jpg b/img/page_you.jpg
+new file mode 100644
+index 0000000..bc7e603
+Binary files /dev/null and b/img/page_you.jpg differ
+diff --git a/img/wz2.png b/img/wz2.png
+new file mode 100644
+index 0000000..c3f1f5a
+Binary files /dev/null and b/img/wz2.png differ
+diff --git a/img2/00.jpg b/img2/00.jpg
+new file mode 100644
+index 0000000..4581c82
+Binary files /dev/null and b/img2/00.jpg differ
+diff --git a/img2/11.jpg b/img2/11.jpg
+new file mode 100644
+index 0000000..7f80840
+Binary files /dev/null and b/img2/11.jpg differ
+diff --git a/img2/12.jpg b/img2/12.jpg
+new file mode 100644
+index 0000000..3a4af55
+Binary files /dev/null and b/img2/12.jpg differ
+diff --git a/img2/21.jpg b/img2/21.jpg
+new file mode 100644
+index 0000000..63d583d
+Binary files /dev/null and b/img2/21.jpg differ
+diff --git a/img2/22.jpg b/img2/22.jpg
+new file mode 100644
+index 0000000..ae6db10
+Binary files /dev/null and b/img2/22.jpg differ
+diff --git a/img2/23.jpg b/img2/23.jpg
+new file mode 100644
+index 0000000..e7445e4
+Binary files /dev/null and b/img2/23.jpg differ
+diff --git a/img2/24.jpg b/img2/24.jpg
+new file mode 100644
+index 0000000..00d5951
+Binary files /dev/null and b/img2/24.jpg differ
+diff --git a/img2/25.jpg b/img2/25.jpg
+new file mode 100644
+index 0000000..67b7868
+Binary files /dev/null and b/img2/25.jpg differ
+diff --git a/img2/31.JPG b/img2/31.JPG
+new file mode 100644
+index 0000000..765f204
+Binary files /dev/null and b/img2/31.JPG differ
+diff --git a/img2/32.jpg b/img2/32.jpg
+new file mode 100644
+index 0000000..730b69b
+Binary files /dev/null and b/img2/32.jpg differ
+diff --git a/img2/33.jpg b/img2/33.jpg
+new file mode 100644
+index 0000000..beef595
+Binary files /dev/null and b/img2/33.jpg differ
+diff --git a/img2/34.jpg b/img2/34.jpg
+new file mode 100644
+index 0000000..c52198e
+Binary files /dev/null and b/img2/34.jpg differ
+diff --git a/img2/35.jpg b/img2/35.jpg
+new file mode 100644
+index 0000000..86eddba
+Binary files /dev/null and b/img2/35.jpg differ
+diff --git a/img2/41.jpg b/img2/41.jpg
+new file mode 100644
+index 0000000..fecbff2
+Binary files /dev/null and b/img2/41.jpg differ
+diff --git a/img2/42.jpg b/img2/42.jpg
+new file mode 100644
+index 0000000..49ff7f8
+Binary files /dev/null and b/img2/42.jpg differ
+diff --git a/img2/43.JPG b/img2/43.JPG
+new file mode 100644
+index 0000000..ba0ae41
+Binary files /dev/null and b/img2/43.JPG differ
+diff --git a/img2/44.jpg b/img2/44.jpg
+new file mode 100644
+index 0000000..9652ab3
+Binary files /dev/null and b/img2/44.jpg differ
+diff --git a/img2/45.jpg b/img2/45.jpg
+new file mode 100644
+index 0000000..94e5365
+Binary files /dev/null and b/img2/45.jpg differ
+diff --git a/img2/51.jpg b/img2/51.jpg
+new file mode 100644
+index 0000000..a840b8a
+Binary files /dev/null and b/img2/51.jpg differ
+diff --git a/img2/52.jpg b/img2/52.jpg
+new file mode 100644
+index 0000000..5e00e09
+Binary files /dev/null and b/img2/52.jpg differ
+diff --git a/img2/53.JPG b/img2/53.JPG
+new file mode 100644
+index 0000000..f2de29a
+Binary files /dev/null and b/img2/53.JPG differ
+diff --git a/img2/54.jpg b/img2/54.jpg
+new file mode 100644
+index 0000000..9d88c59
+Binary files /dev/null and b/img2/54.jpg differ
+diff --git a/img2/55.jpg b/img2/55.jpg
+new file mode 100644
+index 0000000..94a0c88
+Binary files /dev/null and b/img2/55.jpg differ
+diff --git a/img3/00.jpg b/img3/00.jpg
+new file mode 100644
+index 0000000..65c9278
+Binary files /dev/null and b/img3/00.jpg differ
+diff --git a/img3/11.jpg b/img3/11.jpg
+new file mode 100644
+index 0000000..0e9c3ec
+Binary files /dev/null and b/img3/11.jpg differ
+diff --git a/img3/12.jpg b/img3/12.jpg
+new file mode 100644
+index 0000000..48b12a8
+Binary files /dev/null and b/img3/12.jpg differ
+diff --git a/img3/13.jpg b/img3/13.jpg
+new file mode 100644
+index 0000000..86dc272
+Binary files /dev/null and b/img3/13.jpg differ
+diff --git a/img3/14.jpg b/img3/14.jpg
+new file mode 100644
+index 0000000..eca6b9f
+Binary files /dev/null and b/img3/14.jpg differ
+diff --git a/img3/15.jpg b/img3/15.jpg
+new file mode 100644
+index 0000000..f03a4df
+Binary files /dev/null and b/img3/15.jpg differ
+diff --git a/img3/16.jpg b/img3/16.jpg
+new file mode 100644
+index 0000000..15e1ac3
+Binary files /dev/null and b/img3/16.jpg differ
+diff --git a/img3/17.jpg b/img3/17.jpg
+new file mode 100644
+index 0000000..c37fc6f
+Binary files /dev/null and b/img3/17.jpg differ
+diff --git a/img3/18.jpg b/img3/18.jpg
+new file mode 100644
+index 0000000..14565a6
+Binary files /dev/null and b/img3/18.jpg differ
+diff --git a/img3/19.jpg b/img3/19.jpg
+new file mode 100644
+index 0000000..fc6dc6e
+Binary files /dev/null and b/img3/19.jpg differ
+diff --git a/img3/21.jpg b/img3/21.jpg
+new file mode 100644
+index 0000000..dc833ee
+Binary files /dev/null and b/img3/21.jpg differ
+diff --git a/img3/22.jpg b/img3/22.jpg
+new file mode 100644
+index 0000000..064eb11
+Binary files /dev/null and b/img3/22.jpg differ
+diff --git a/img3/23.jpg b/img3/23.jpg
+new file mode 100644
+index 0000000..624bb7e
+Binary files /dev/null and b/img3/23.jpg differ
+diff --git a/img3/24.jpg b/img3/24.jpg
+new file mode 100644
+index 0000000..b9fdf73
+Binary files /dev/null and b/img3/24.jpg differ
+diff --git a/img3/25.jpg b/img3/25.jpg
+new file mode 100644
+index 0000000..258b2c9
+Binary files /dev/null and b/img3/25.jpg differ
+diff --git a/img3/26.jpg b/img3/26.jpg
+new file mode 100644
+index 0000000..1f1fca5
+Binary files /dev/null and b/img3/26.jpg differ
+diff --git a/img3/jj.png b/img3/jj.png
+new file mode 100644
+index 0000000..2770a82
+Binary files /dev/null and b/img3/jj.png differ
+diff --git a/imge/01.jpg b/imge/01.jpg
+new file mode 100644
+index 0000000..e69ff0a
+Binary files /dev/null and b/imge/01.jpg differ
+diff --git a/imge/02.jpg b/imge/02.jpg
+new file mode 100644
+index 0000000..e58e9a0
+Binary files /dev/null and b/imge/02.jpg differ
+diff --git a/imge/03.jpg b/imge/03.jpg
+new file mode 100644
+index 0000000..52af09f
+Binary files /dev/null and b/imge/03.jpg differ
+diff --git a/imge/04.jpg b/imge/04.jpg
+new file mode 100644
+index 0000000..da3e391
+Binary files /dev/null and b/imge/04.jpg differ
+diff --git a/imge/05.jpg b/imge/05.jpg
+new file mode 100644
+index 0000000..a46f80c
+Binary files /dev/null and b/imge/05.jpg differ
+diff --git a/imge/06.jpg b/imge/06.jpg
+new file mode 100644
+index 0000000..fe9eb86
+Binary files /dev/null and b/imge/06.jpg differ
+diff --git a/imge/07.jpg b/imge/07.jpg
+new file mode 100644
+index 0000000..c33c12d
+Binary files /dev/null and b/imge/07.jpg differ
+diff --git a/imge/08.jpg b/imge/08.jpg
+new file mode 100644
+index 0000000..0620fa7
+Binary files /dev/null and b/imge/08.jpg differ
+diff --git a/imge/11.jpg b/imge/11.jpg
+new file mode 100644
+index 0000000..1c9ce54
+Binary files /dev/null and b/imge/11.jpg differ
+diff --git a/imge/12.jpg b/imge/12.jpg
+new file mode 100644
+index 0000000..e2d9af7
+Binary files /dev/null and b/imge/12.jpg differ
+diff --git a/imge/13.jpg b/imge/13.jpg
+new file mode 100644
+index 0000000..6f8e40d
+Binary files /dev/null and b/imge/13.jpg differ
+diff --git a/imge/21.jpg b/imge/21.jpg
+new file mode 100644
+index 0000000..865c3dc
+Binary files /dev/null and b/imge/21.jpg differ
+diff --git a/imge/22.jpg b/imge/22.jpg
+new file mode 100644
+index 0000000..9d4b5b6
+Binary files /dev/null and b/imge/22.jpg differ
+diff --git a/imge/23.jpg b/imge/23.jpg
+new file mode 100644
+index 0000000..b3998ff
+Binary files /dev/null and b/imge/23.jpg differ
+diff --git a/imge/24.jpg b/imge/24.jpg
+new file mode 100644
+index 0000000..36a9842
+Binary files /dev/null and b/imge/24.jpg differ
+diff --git a/imge/31.jpg b/imge/31.jpg
+new file mode 100644
+index 0000000..08ac54e
+Binary files /dev/null and b/imge/31.jpg differ
+diff --git a/imge/32.jpg b/imge/32.jpg
+new file mode 100644
+index 0000000..8931568
+Binary files /dev/null and b/imge/32.jpg differ
+diff --git a/imge/33.jpg b/imge/33.jpg
+new file mode 100644
+index 0000000..cb7ea62
+Binary files /dev/null and b/imge/33.jpg differ
+diff --git a/imge/34.jpg b/imge/34.jpg
+new file mode 100644
+index 0000000..50647ab
+Binary files /dev/null and b/imge/34.jpg differ
+diff --git a/imge/41.jpg b/imge/41.jpg
+new file mode 100644
+index 0000000..5f15f28
+Binary files /dev/null and b/imge/41.jpg differ
+diff --git a/imge/42.jpg b/imge/42.jpg
+new file mode 100644
+index 0000000..9a550dc
+Binary files /dev/null and b/imge/42.jpg differ
+diff --git a/imge/45.jpg b/imge/45.jpg
+new file mode 100644
+index 0000000..0b3550d
+Binary files /dev/null and b/imge/45.jpg differ
+diff --git a/imge/46.jpg b/imge/46.jpg
+new file mode 100644
+index 0000000..3ac7fa8
+Binary files /dev/null and b/imge/46.jpg differ
+diff --git a/imge/47.jpg b/imge/47.jpg
+new file mode 100644
+index 0000000..d70143e
+Binary files /dev/null and b/imge/47.jpg differ
+diff --git a/imge/48.jpg b/imge/48.jpg
+new file mode 100644
+index 0000000..1d18337
+Binary files /dev/null and b/imge/48.jpg differ
+diff --git a/imge/b.jpg b/imge/b.jpg
+new file mode 100644
+index 0000000..24f876b
+Binary files /dev/null and b/imge/b.jpg differ
+diff --git a/imge/m1.png b/imge/m1.png
+new file mode 100644
+index 0000000..2854b14
+Binary files /dev/null and b/imge/m1.png differ
+diff --git a/imge/m2.png b/imge/m2.png
+new file mode 100644
+index 0000000..4cf518f
+Binary files /dev/null and b/imge/m2.png differ
+diff --git a/imge/m3.png b/imge/m3.png
+new file mode 100644
+index 0000000..fa01c63
+Binary files /dev/null and b/imge/m3.png differ
+diff --git a/imge/m4.png b/imge/m4.png
+new file mode 100644
+index 0000000..8fd904a
+Binary files /dev/null and b/imge/m4.png differ
+diff --git a/imge/sj.png b/imge/sj.png
+new file mode 100644
+index 0000000..ee2c3be
+Binary files /dev/null and b/imge/sj.png differ
+diff --git a/page2.html b/page2.html
+new file mode 100644
+index 0000000..dcad260
+--- /dev/null
++++ b/page2.html
+@@ -0,0 +1,342 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++	<meta charset="UTF-8">
++	<title>内页面</title>
++	<link rel="stylesheet" href="css/base.css" type="text/css">
++	<link rel="stylesheet" href="css/inland.css" type="text/css">
++</head>
++<body>
++<!-- 导航 -->
++	<div class="header">
++		<div class="center-box clearfix">
++			<h1 class="fl"><a href="">
++				<img src="img/logo01.jpg">
++			</a></h1>
++			<ul class="fl clearfix">
++				<li style="border-left: none;"><a href="">快速了解薇拉</a></li>
++				<li class="style-p"><a href="">拍摄风格选择</a>
++					<ul class="style-f">
++						<li><a href="special.html">薇拉@漢</a></li>
++						<li><a href="fasion.html">时尚•态度</a></li>
++						<li><a href="">高端定制</a></li>
++						<li><a href="">薇拉女神</a></li>
++					</ul>
++
++				</li>
++				<li class="style-p"><a href="">客片大赏</a>
++					<ul class="style-f">
++						<li><a href="update.html">每日更新</a></li>
++						<li><a href="guest.html">客片大赏</a></li>
++					</ul>
++				</li>
++				<li><a href="">资询档期</a></li>
++				<li><a href="">查找店面</a></li>
++				<li style="border-right: none;"><a href="">YOU</a></li>
++			</ul>
++			<div class="location">
++				<ul class="clearfix">
++					<li><a href="">武汉</a></li>
++					<li><a href="">深圳</a></li>
++					<li><a href="">三亚</a></li>
++				</ul>
++			</div>
++		</div>
++	</div>
++	<!-- banner -->
++	<div class="banner center-box">
++		<img src="imge/b.jpg" alt="">
++	</div>
++	<!-- 简介 -->
++	<div class="introduction">
++		<ul class="clearfix content-box">
++			<li>
++				<img src="imge/01.jpg" alt="">
++				<p>AVIVA原是希伯来词语，意为"美好的明天"，同AVIVI，引申意为"希望"</p>
++				<p>因此，摄影品牌以此将美好祝愿奉献给所有朋友！</p>
++				<p>春天虽是河水泛滥的季节，它又是孕育的开端。当春风春雨一夜之间挂满我们视野的枝头，我们就会忘却冬日里寒冷的疼痛。我们在春天里彼此守望；在守望中彼此牵挂；在牵挂中彼此等待。</p>
++				<p>我知道，这就是对于生命中流传已久，而对于我们来说又是失传已久的爱,全部萌生在这美好的春天!</p>
++				<img src="imge/04.jpg" alt="">
++				<p>薇拉摄影英文商标AVIVA（商标注册发文编号：7626272），中文商标"薇拉摄影"（商标证第9558332号）。</p>
++				<img src="imge/05.jpg" alt="">
++			</li>
++			<li>
++				<img src="imge/02.jpg" alt="">
++				<p>"世界上有100000种以上的字体存在，但是我们为什么不能就保持几个熟悉的面孔呢？也许我们应该坚持经典。"</p>
++				<img src="imge/06.jpg" alt="">
++				<img src="imge/07.jpg" alt="">
++				<p>Times New Roman可谓无处不在。翻开美国国务院备忘录、《妇女家庭伴侣》的扉页，以及触手可及的收件箱——你会发现，它是世界上使用最广泛的字体之一。</p>
++				<p>恰巧，"AVIVA"也是英文中极为少见的完全对称的单词。</p>
++				<img src="imge/08.jpg" alt="">
++			</li>
++			<li style="border-right: none;">
++				<img src="imge/03.jpg" alt="">
++				<p>追求完美的态度，启发我们发掘进步的空间，推动我们努力不懈向前迈进。</p>
++				<p>"薇拉"二字的背后，蕴涵着我们致力塑造的崇高之领军形象。真正的高端并不在于浮夸和奢华，而是在于别具品味的体验，当中不可或缺的是致臻完美的产品和服务。</p>
++				<p>对于每个细节，薇拉都予以最细致的关注。由时尚精致的店面环境，以至橱窗的精美设计，我们都专注入微，藉此表现我们对高端市场的热情，也藉此向每位摄影师，化妆师，设计师及其品牌致以最崇高的敬意。</p>
++				<p>目前所创下的佳绩，鼓励我们精益求精，致力为中国婚嫁市场提供高端定制服务!</p>
++			</li>
++		</ul>
++	</div>
++	<div class="picture content-box clearfix">
++		<p><img src="imge/11.jpg" alt=""></p>
++		<p><img src="imge/12.jpg" alt=""></p>
++		<p><img src="imge/13.jpg" alt=""></p>
++	</div>
++	<!--3 6 14  -->
++	<div class="orgin content-box">
++		<div>
++			<img src="imge/21.jpg" alt="">
++			<p>薇拉品牌——AVIVA原意为希望，摄影寄托着一切美好的祝愿，</p>
++			<p>它不断放大优点，闪耀且肆意地呈现生活中的点滴幸福，薇拉的品牌愿景，也通过这个美好的单词，将希望与美好的祝愿传递给更多的人。</p>
++		</div>
++		<div>
++			<img src="imge/22.jpg" alt="">
++		</div>
++		<div>
++			<p>基于这样的品牌基调，薇拉不断追求完美，也在至臻至美的产品与服务上，投注大量的心血与努力。薇拉摄影源于武汉，致力于为中国婚嫁市场提供高端定制服务，以3座城14店的微小成绩，饱含对高端市场的热情，致力于更广阔的前景开发。</p>
++		</div>
++	</div>
++	<div class="pic content-box">
++		<img src="imge/23.jpg" alt="">
++	</div>
++	<div class="brand content-box clearfix">
++		<p><img src="imge/24.jpg" alt=""></p>
++		<p class="fr">
++				<img src="imge/31.jpg" alt="">
++				<img src="imge/32.jpg" alt="">
++				<img src="imge/33.jpg" alt="">
++				<img src="imge/34.jpg" alt="" style="border-right: none;">
++		</p>
++	</div>
++	<!-- 分店 -->
++	<div class="branch content-box">
++		<dl>
++			<dt>
++			<h1><img src="imge/41.jpg" alt=""></h1>
++			<h1 style="margin-top: 15px;"><img src="imge/42.jpg" alt=""></h1>
++			</dt>
++			<dd class="clearfix">
++				<p>薇拉摄影</p>
++				<p>汉阳造店</p>
++				<p>武汉市汉阳区龟北路1号汉阳造创意园60号楼</p>
++				<p>027-8452 3766</p>
++			</dd>
++			<dd class="clearfix">
++				<p>薇拉摄影</p>
++				<p>武昌汉街店</p>
++				<p>武昌区汉街28号武汉中央文化区步行街J2-5-24/25号商铺</p>
++				<p>027-8711 0106</p>
++			</dd>
++			<dd class="clearfix">
++				<p>薇拉摄影</p>
++				<p>武昌光谷店</p>
++				<p>洪山区光谷步行街三期意大利风情街多莫大教堂5-6楼全层</p>
++				<p>027-8729 9906</p>
++			</dd>
++			<dd class="clearfix">
++				<p>薇拉摄影</p>
++				<p>汉口江滩店</p>
++				<p>江岸区沿江大道163号（宋庆龄故居旁）</p>
++				<p>027-8277 9018</p>
++			</dd>
++		</dl>
++		<dl>
++			<dt>
++			<h1><img src="imge/45.jpg" alt="" style="margin-top: 30px;"></h1>
++			<dd class="clearfix">
++				<p>薇拉皇后</p>
++				<p>汉阳造店</p>
++				<p>汉阳区龟北路1号汉阳造创意园汉阳会附楼</p>
++				<p>027-8426 1785</p>
++			</dd>
++			<dd class="clearfix">
++				<p>薇拉皇后</p>
++				<p>武昌汉街店</p>
++				<p>武昌区汉街28号武汉中央文化区步行街J2区J2-5- 23号商铺</p>
++				<p>027-8711 0126</p>
++			</dd>
++			<dd class="clearfix">
++				<p>薇拉皇后</p>
++				<p>武昌光谷店</p>
++				<p>洪山区光谷步行街三期意大利风情街多莫大教堂5楼</p>
++				<p>027-8729 9936</p>
++			</dd>
++		</dl>
++		<dl>
++			<dt>
++			<h1><img src="imge/46.jpg" alt="" style="margin-top: 30px;"></h1>
++			<dd class="clearfix">
++				<p>AGOKIDS</p>
++				<p>汉口店</p>
++				<p>武汉市江岸区金桥大道38号绿色新都商业街A栋</p>
++				<p>400 6400 181</p>
++			</dd>
++		</dl>
++		<dl>
++			<dt>
++			<h1><img src="imge/47.jpg" alt="" style="margin-top: 50px;"></h1>
++			<dd class="clearfix">
++				<p>薇拉摄影</p>
++				<p>薇拉摄影深圳店</p>
++				<p>深圳市南山区深南大道9009号华侨城洲际酒店首层婚礼中心</p>
++				<p>0755-6660 1988</p>
++			</dd>
++		</dl>
++		<dl>
++			<dt>
++			<h1><img src="imge/48.jpg" alt="" style="margin-top: 50px;"></h1>
++			<dd class="clearfix">
++				<p>薇拉摄影</p>
++				<p>薇拉摄影三亚店</p>
++				<p>海南省三亚市亚龙湾国家旅游度假区百花谷商业中心B202</p>
++				<p>4000-688-648</p>
++			</dd>
++		</dl>
++	</div>
++	<!-- 咨询 -->
++	<div class="ask">
++		<ul>
++			<li class="clearfix">
++				<div class="fl"><img src="imge/m1.png"></div>
++				<div class="right fl">
++					<h4>Consultation</h4>
++					<p><b>快速在线咨询即时了解薇拉第一手信息,请选择您最近的服务中心进行咨询</b></p>
++				</div>
++			</li>
++			<li class="clearfix">
++				<div class="fl"><img src="imge/m2.png"></div>
++				<div class="right fl">
++					<h4>Schedule</h4>
++					<p><b>薇拉摄影档期实际情况请咨询店
++					请在婚期确认前3-6个月进行预定内客服</b></p>
++				</div>
++			</li>
++			<li class="clearfix">
++				<div class="fl"><img src="imge/m3.png"></div>
++				<div class="right fl">
++					<h4>Shoot tips</h4>
++					<p><b>薇拉摄影更多拍摄须知
++					请点击这里查看</b></p>
++				</div>
++			</li>
++			<li class="clearfix" style="border-right: none;">
++				<div class="fl"><img src="imge/m4.png"></div>
++				<div class="right fl">
++					<h4>Address</h4>
++					<p><b>薇拉摄影武汉三镇十店
++					请选择您最近的服务中心进行咨询</b></p>
++				</div>
++			</li>
++		</ul>
++	</div>
++	<!-- 返回顶部 -->
++	<div class="sj">
++		<a href=""></a>
++	</div>
++	<!-- 你心目中的薇拉 -->
++	<div class="your">
++		<a href=""><img src="img/page_you.jpg" alt=""></a>
++	</div>
++	<!-- footer区 -->
++	<div class="footer">
++		<div class="center-box content">
++			<div class="nav">
++			<img src="img/link.png" alt="">
++			</div>
++			<div class="list">
++				<ul class="clearfix">
++					<li>
++						<a href=""><img src="img/foot1.png" alt=""></a>
++						<ul class="list-in">
++							<li><a href="">薇拉摄影研创中心</a></li>
++							<li><a href="">薇拉摄影高端客户服务中心</a></li>
++							<li><a href="">薇拉皇后高端礼服馆</a></li>
++							<li><a href="">薇拉上善高端婚礼造型定制馆</a></li>
++						</ul>
++					</li>
++					<li>
++						<a href=""><img src="img/foot2.png" alt=""></a>
++						<ul class="list-in">
++							<li><a href="">薇拉品牌介绍</a></li>
++							<li><a href="">薇拉三镇十二店布局一览</a></li>
++							<li><a href=""><font color="#ffca00">薇拉摄影人才计划</font></a></li>
++							<li><a href="">了解你会爱上薇拉的理由</a></li>
++							<li><a href="">免责声明及法律条款</a></li>
++
++						</ul>
++					</li>
++					<li>
++						<a href=""><img src="img/foot3.png" alt=""></a>
++						<ul class="list-in">
++							<li><a href="">客片大赏</a></li>
++							<li><a href=""><font color="#ffca00">每日客片更新</font></a></li>
++							<li><a href="">薇拉@漢系列作品</a></li>
++							<li><a href="">时尚态度系列作品</a></li>
++							<li><a href="">高端定制系列作品</a></li>
++							<li><a href="">薇拉女神系列</a></li>
++						</ul>
++					</li>
++					<li>
++						<a href=""><img src="img/foot4.png" alt=""></a>
++						<ul class="list-in">
++							<li><a href="">最新新闻公告</a></li>
++							<li><a href="">活动进行时……</a></li>
++							<li><a href="">薇拉印花</a></li>
++							<li><a href="">WOW！MAGAZINE薇拉画报</a></li>
++						</ul>
++					</li>
++				</ul>
++			</div>
++			<div class="icon">
++				<a href="" style="background: url(img/footer_icon.png) 0 0 no-repeat;width: 120px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -140px 0 no-repeat;width: 110px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -280px 0 no-repeat;width: 110px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -400px 0 no-repeat;width: 140px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -550px 0 no-repeat;width: 160px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -720px 0 no-repeat;width: 110px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -860px 0 no-repeat;width: 150px;"></a>
++			</div>
++			<div class="last clearfix">
++				<div class="last-l fl">
++					<a href=""><img src="img/61.jpg" alt=""></a>
++					<a href=""><img src="img/62.jpg" alt=""></a>
++					<a href=""><img src="img/63.jpg" alt=""></a>
++					<a href=""><img src="img/64.jpg" alt=""></a>
++					<a href=""><img src="img/65.jpg" alt=""></a>
++				</div>
++				<div class="last-r fr">
++					<p>AVIVA 及 薇拉摄影均为注册商标，薇拉摄影网站界面设计及程序设计均以申请国家知识产权及著作权。未经允许不得转载抄袭，薇拉摄影对此保留法律诉讼的权利。</p>
++					<p>AVIVA AND AVIVA PHOTO ARE REGISTERED TRADEMARKS PHOTOGRAPHY, OUR WEBSITE INTERFACE DESIGN AND PROGRAMMING ARE APPLIED FOR NATIONAL INTELLECTUAL PROPERTY RIGHTS AND COPYRIGHTS. SHALL NOT BE REPRODUCED WITHOUT PERMISSION PLAGIARISM, WHICH WE KEEP THE RIGHT TO LEGAL PROCEEDINGS</p>
++					<p>视觉设计 & 网站建设 
++						<a href="">衍艺广告</a>
++						<a href=""><img src="img/logo03.png" alt=""></a>版权所有：武汉市汉阳区薇拉摄影店
++					</p>
++				</div>
++			</div>
++		</div>
++	</div>
++	<!-- 固定区 -->
++	<div class="fixed  clearfix">
++		<div class="ff fl">
++			<a><img src="img/btn06.png" alt="">
++			<span>400-0825-818</span></a>
++		</div>
++		<div class="fj fl">
++			<a href="">首页</a>
++			<a href="">拍摄风格选择</a>
++			<a href="">客片大赏</a>
++			<a href="">YOU</a>
++			<a href="">咨询档期</a>
++		</div>
++		<div class="fm fr">
++			<a href="" style="position: relative;top: -1px">
++				<img src="img/kf.gif" height="54">
++			</a>
++			<a href="">
++				<img src="img/back.png" alt="">
++			</a>
++		</div>
++	</div>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/special.html b/special.html
+new file mode 100644
+index 0000000..008cda9
+--- /dev/null
++++ b/special.html
+@@ -0,0 +1,431 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++	<meta charset="UTF-8">
++	<title>拍摄风格汉</title>
++	<link rel="stylesheet" href="css/base.css" type="text/css">
++	<link rel="stylesheet" href="css/special.css" type="text/css">
++</head>
++<body>
++<!-- 导航 -->
++	<div class="header">
++		<div class="center-box clearfix">
++			<h1 class="fl"><a href="">
++				<img src="img/logo01.jpg">
++			</a></h1>
++			<ul class="fl clearfix">
++				<li style="border-left: none;"><a href="page2.html">快速了解薇拉</a></li>
++				<li class="style-p"><a href="">拍摄风格选择</a>
++					<ul class="style-f">
++						<li><a href="special.html">薇拉@漢</a></li>
++						<li><a href="fasion.html">时尚•态度</a></li>
++						<li><a href="">高端定制</a></li>
++						<li><a href="">薇拉女神</a></li>
++					</ul>
++
++				</li>
++				<li class="style-p"><a href="">客片大赏</a>
++					<ul class="style-f">
++						<li><a href="update.html">每日更新</a></li>
++						<li><a href="guest.html">客片大赏</a></li>
++					</ul>
++				</li>
++				<li><a href="">资询档期</a></li>
++				<li><a href="">查找店面</a></li>
++				<li style="border-right: none;"><a href="">YOU</a></li>
++			</ul>
++			<div class="location">
++				<ul class="clearfix">
++					<li><a href="">武汉</a></li>
++					<li><a href="">深圳</a></li>
++					<li><a href="">三亚</a></li>
++				</ul>
++			</div>
++		</div>
++	</div>
++	<!-- 轮播图及文字 -->
++	<div class="top content-box clearfix">
++		<div class="top-left fl">
++			<div class="tp"><img src="image/01.jpg" alt=""></div>
++			<div class="wz">
++				<img src="image/02.jpg" alt="">
++				<p>2010年冬，薇拉元年。刚感受到冬天的筋骨毕露,苍劲虬曲。薇拉摄影凛冽依然，背倚龟山，首家高端客户服务中心落成武汉。几度春秋风雨轮覆，从雏形到初期，再至上升发展，这成长历史尤显厚重。因为这交融着薇拉全体研发团队及工作人员的孜孜付出。</p>
++				<p>而造就这一历史成果的始作俑者便是薇拉众多风格作品的创作及延续。如果定要给这奠基性作品归总一个类别。只因我们源起武汉，《薇拉@汉》从此应运而生。武汉，简称"汉"。一个令全体薇拉团队骄傲的城市，一个让全国婚嫁行业重新认知的风向城市，一个让广大新人为其风格趋之若鹜的城市。皆因有你，《薇拉@汉》。</p>
++			</div>
++			<div class="game">
++				<h1><span>技术</span>，永远是影楼的<span>核心竞争力</span>。</h1>
++				<p>技术会不断革新展现形式，但我们的产品是令人动容的照片，这一点始终如一。真正能让人产生认同感的，是独特风格所传达的必需信息，而不是单纯的婚纱摄影作品。技术会不断革新展现形式，但我们的产品是令人动容的照片，这一点始终如一。</p>
++			</div>
++			<div class="pha">
++				<p>《薇拉@汉》历时四年，我们从未放弃在保持立异时仍在不断标新。从第一组作品全情发布开始，我们就坚持阐述特立独行的"薇拉风"。这也是薇拉无法复刻的精神革命的开始。更将国内婚纱摄影行业带入全新境界。</p>
++				<p>《薇拉@汉》风格的多样化结合不同诉求的定制化，在庞大的客照市场中不断得到口碑验证。《薇拉@汉》七大分支风格：
++					<a href="">视觉元素系列,</a>
++					<a href="">中国新娘系列,</a>
++					<a href="">‘韩’系列,</a>
++					<a href="">健康系列,</a>
++					<a href="">北海斋系列,</a>
++					<a href="">复古风潮系列,</a>
++					<a href="">幸福纪实系列,</a>
++					七大系列多种风格玩味时尚婚纱.</p>
++			</div>
++			<div class="contact clearfix">
++				<div class="cf fl">
++					<p><a href="">点击联系qq客服</a></p>
++					<p><a href="">点击访问微博联系客服</a></p>
++				</div>
++				<div class="cr fr">
++					<img src="image/03.jpg" alt="">
++				</div>
++			</div>
++			<div class="at">
++				<p>访客观网指南：尊敬的访客您好！欢迎来到薇拉摄影官方网站《薇拉@漢》栏目。 您在这里会看到来自薇拉摄影的各种风格样片。您可以点击这里联系我们的客服，告诉他/她您所心仪的风格，同时 您也可以要求观看每个风格样片所对应的客片。</p>
++				<p>VISITORS GUIDE NETWORK VIEW: DEAR VISITORS HELLO! WELCOME TO THE OFFICIAL WEBSITE OF AVIVA "VERA @ HAN" SECTION.HERE YOU'LL SEE A VARIETY OF STYLES FROM THE SAMPLE OF AVIVA. YOU CAN CLICK HERE TO CONTACT OUR CUSTOMER SERVICE, SUETELL HIM / HER THAT YOU FAVORITE STYLE, BUT YOU CAN ALSO ASK TO SEE SAMPLES OF EACH STYLE SHEET CORRESPONDING TO THE CUSTOMER</p>
++			</div>
++		</div>
++		<div class="top-right fr">
++			<ul>
++				<li><img src="image/11.jpg" alt=""></li>
++				<li><img src="image/12.jpg" alt=""></li>
++				<li><img src="image/13.jpg" alt=""></li>
++				<li><img src="image/14.jpg" alt=""></li>
++				<li><img src="image/15.jpg" alt=""></li>
++			</ul>
++		<!-- 	<script type="text/javascript">
++		$(".at_scroll").slide({titCell:".hd li",mainCell:".bd ul",effect:"fold",autoPlay:true});
++		</script> -->
++			<div class="cicle">
++				<ul class="clearfix">
++					<li class="fl active"></li>
++					<li class="fl"></li>
++					<li class="fl"></li>
++					<li class="fl"></li>
++					<li class="fl"></li>
++				</ul>
++			</div>
++		</div>
++	</div>
++	<!-- 作品区 -->
++	<div class="work-show content-box">
++		<div class="wt">
++			<div class="nav">
++				<p class="clearfix">
++					<i class="fl"><img src="image/04.gif" alt=""></i>
++					<span class="fr">
++						<a>直击幸福现场查看 <span>《每日最新客片》</span></a>
++						<a>点击这里查看 <span>《客片大赏》</span></a>
++					</span>
++				</p>
++				<!-- nav -->
++				<div class="nav-b">
++					<ul>
++						<li><a href=""></a></li>
++						<li><a href=""></a></li>
++						<li><a href=""></a></li>
++						<li><a href=""></a></li>
++						<li><a href=""></a></li>
++						<li><a href=""></a></li>
++						<li class="active"><a href=""></a></li>
++						<li><a href=""></a></li>
++					</ul>
++				</div>
++			</div>
++			<div class="show content-box">
++				<ul class="clearfix">
++					<li><a href="">
++						<i><img src="image/21.jpg" alt=""></i>
++						<p class="clearfix"><small>Photo Name</small><tt>	2017年03月14日</tt></p>
++						<p><b>知日</b></p><br><br>
++						<p><small class="clearfix">Photo Description</small></p><br>
++						<cite>如何用镜头，缩短文化的距离？薇拉摄影知日系列，将镜头对准日式人文及生活，将当代青年共有的艺术质感与历史源流进行视觉化呈现。于是异域文化通过感官得到完整传达，一幅浓缩版的知日文化，一场无声的艺术交流。</cite>
++						<p class="clearfix" style="margin-top:30px; ">
++							<ins><ins><b id="en">HOKKAIDO</b>
++						</p>
++					</a></li>
++					<li><a href="">
++						<i><img src="image/22.jpg" alt=""></i>
++						<p class="clearfix"><small>Photo Name</small><tt>	2017年03月14日</tt></p>
++						<p><b>魚の花見</b></p><br><br>
++						<p><small class="clearfix">Photo Description</small></p><br>
++						<cite>食物治疗的是什么？是人生被紧紧包围的孤独感。没有什么能比味蕾更憧憬满足的滋味。被爱意包裹着的熟悉香味，热腾腾的人间烟火，等有滋有趣的一碗丰盛端上，任何失落与敏感，都会被爱治愈。多谢美好生活款待，人生方能如此精彩。</cite>
++						<p class="clearfix" style="margin-top:30px; ">
++							<ins><ins><b id="en">HOKKAIDO</b>
++						</p>
++					</a></li>
++					<li><a href="">
++						<i><img src="image/23.jpg" alt=""></i>
++						<p class="clearfix"><small>Photo Name</small><tt>	2017年03月14日</tt></p>
++						<p><b>醒春</b></p><br><br>
++						<p><small class="clearfix">Photo Description</small></p><br>
++						<cite>被花惊扰的三月，万物苏醒，一片春天在眼前。我们总是不吝于用最美妙的词汇来描述春天，繁花，浪漫，轻盈，美妙。这稍纵即逝的瞬间，胜过枯燥乏味的千万年。遐想花香鸟语轻上身，春光如醉梦浮生。此刻一切美好，都属于春天的模样。</cite>
++						<p class="clearfix" style="margin-top:30px; ">
++							<ins><ins><b id="en">HOKKAIDO</b>
++						</p>
++					</a></li>
++					<li><a href="">
++						<i><img src="image/24.jpg" alt=""></i>
++						<p class="clearfix"><small>Photo Name</small><tt>	2017年03月14日</tt></p>
++						<p><b>醒春2</b></p><br><br>
++						<p><small class="clearfix">Photo Description</small></p><br>
++						<cite>春光乍泄的一瞬间，世间万物的灵光也悄然乍现。这轻盈而温暖的季节，在脱去冬日寒冷阴鸷的桎梏后，开始营造梦幻中的花草乌托邦。阳光轻如薄纱，绿意蓬勃蔓延，这满目繁盛的质感落在你眼中，便成了此刻烂漫而不自知的盎然春意。</cite>
++						<p class="clearfix" style="margin-top:30px; ">
++							<ins><ins><b id="en">HOKKAIDO</b>
++						</p>
++					</a></li>
++					<li><a href="">
++						<i><img src="image/25.jpg" alt=""></i>
++						<p class="clearfix"><small>Photo Name</small><tt>	2017年03月14日</tt></p>
++						<p><b>绿雉</b></p><br><br>
++						<p><small class="clearfix">Photo Description</small></p><br>
++						<cite>如何用镜头，缩短文化的距离？薇拉摄影知日系列，将镜头对准日式人文及生活，将当代青年共有的艺术质感与历史源流进行视觉化呈现。缩短文化的距离</cite>
++						<p class="clearfix" style="margin-top:30px; ">
++							<ins><ins><b id="en">HOKKAIDO</b>
++						</p>
++					</a></li>
++					<li><a href="">
++						<i><img src="image/26.jpg" alt=""></i>
++						<p class="clearfix"><small>Photo Name</small><tt>	2017年03月14日</tt></p>
++						<p><b>复古主义</b></p><br><br>
++						<p><small class="clearfix">Photo Description</small></p><br>
++						<cite><cite>若是若非般晃眼，视觉幻影霓虹般流连忘返，醉不过才子佳人的风流梦。梦一场老派约会，白玫瑰做暗号，眼神相视为诺。爱在咫尺间一步之遥，谁都不用说。</cite></cite>
++						<p class="clearfix" style="margin-top:30px; ">
++							<ins><ins><b id="en">HOKKAIDO</b>
++						</p>
++					</a></li>
++					<li><a href="">
++						<i><img src="image/27.jpg" alt=""></i>
++						<p class="clearfix"><small>Photo Name</small><tt>	2017年03月14日</tt></p>
++						<p><b>早昧</b></p><br><br>
++						<p><small class="clearfix">Photo Description</small></p><br>
++						<cite><cite>每一天，每一天醒来我都把自己忘在梦里。迷离中小心捡拾遗失的小情绪，只能在空气中淡淡玫瑰里嗅到一丝余味。昨日断片，明日不想，最真实的一切来自晨曦的光，只觉当下。</cite></cite>
++						<p class="clearfix" style="margin-top:30px; ">
++							<ins><ins><b id="en">HOKKAIDO</b>
++						</p>
++					</a></li>
++					<li><a href="">
++						<i><img src="image/28.jpg" alt=""></i>
++						<p class="clearfix"><small>Photo Name</small><tt>	2017年03月14日</tt></p>
++						<p><b>MISS NEW</b></p><br><br>
++						<p><small class="clearfix">Photo Description</small></p><br>
++						<cite><cite>每一天，每一天醒来我都把自己忘在梦里。迷离中小心捡拾遗失的小情绪，只能在空气中淡淡玫瑰里嗅到一丝余味。昨日断片，明日不想，最真实的一切来自晨曦的光，只觉当下。</cite></cite>
++						<p class="clearfix" style="margin-top:30px; ">
++							<ins><ins><b id="en">HOKKAIDO</b>
++						</p>
++					</a></li>
++				</ul>
++			</div>
++		</div>
++		<!-- 资询区 -->
++		<div class="ask">
++			<ul>
++				<li class="clearfix">
++					<div class="fl"><img src="imge/m1.png"></div>
++					<div class="right fl">
++						<h4>Consultation</h4>
++						<p><b>快速在线咨询即时了解薇拉第一手信息,请选择您最近的服务中心进行咨询</b></p>
++					</div>
++				</li>
++				<li class="clearfix">
++					<div class="fl"><img src="imge/m2.png"></div>
++					<div class="right fl">
++						<h4>Schedule</h4>
++						<p><b>薇拉摄影档期实际情况请咨询店
++					请在婚期确认前3-6个月进行预定内客服</b></p>
++					</div>
++				</li>
++				<li class="clearfix">
++					<div class="fl"><img src="imge/m3.png"></div>
++					<div class="right fl">
++						<h4>Shoot tips</h4>
++						<p><b>薇拉摄影更多拍摄须知
++						请点击这里查看</b></p>
++					</div>
++				</li>
++				<li class="clearfix" style="border-right: none;">
++					<div class="fl"><img src="imge/m4.png"></div>
++					<div class="right fl">
++						<h4>Address</h4>
++						<p><b>薇拉摄影武汉三镇十店
++						请选择您最近的服务中心进行咨询</b></p>
++					</div>
++				</li>
++			</ul>
++		</div>
++		<!-- 选择区 -->
++		<div class="choice content-box">
++			<div class="top">
++				<p class="clearfix">
++					<i class="fl"><img src="image/05.gif" alt=""></i>
++					<span class="fr">
++						<a href="">直击幸福现场查看 <span>《每日最新客片》</span></a>
++						<a href="">点击这里查看 <span>《客片大赏》</span></a>
++					</span>
++				</p>
++				<div class="more">
++					<ul class="clearfix">
++						<li>
++							<a href="" id="surface">
++							<img src="image/32.png" alt="">
++							</a>
++							<a href="" id="su">
++							<img src="image/31.jpg" alt="">
++							</a>
++							<p style="margin:20px auto"><img src="image/35.jpg" alt=""></p>
++							<div class="text">
++								<p>薇拉在摄影上所坚持DIY （DO IT YOURSELF）精神，适时地拓宽自己的风格范围。2013年夏，薇拉以广众先驱之名宣誓崭新风格主权。逐一发布全新摄影风格作品《时尚·态度》系列。</p>
++								<p>在我们看来，时尚是一种生活态度，是一种勇敢去想、勇敢去做的态度。时尚不是某个东西，时尚也不单纯是追逐某种流行趋势，它可能成为未来的人们普遍接受的东西，但在眼下，时尚绝对是少数人敢于尝试的冒险的生活方式。</p>
++								<p>我们崇尚独立。INDIE(独立)是一种态度，是一种对于摄影创作的态度，推而广之，它同样也是薇拉广大摄影师对于时尚取舍的态度，我们欣赏照片或多或少都是在慢慢形成自己的审美取向，形成一种不受外界干扰的独立态度，必要时CHECK OUR ATTITUDE,保持清醒且特立独行的头脑。淋漓尽致地展现薇拉摄影的《时尚·态度》</p>
++								<p>在《时尚·态度》的创作中，我们更加注重婚纱礼服的品质和细节。更加注重妆容的精致与和谐。一幅幅风尚婚纱杂志大片跃然而现。<a href=""><b style="color:#000;">Read more</b></a></p>
++							</div>
++						</li>
++						<li style="margin-right: 0;">
++							<a href="" id="surface">
++							<img src="image/34.png" alt="">
++							</a>
++							<a href="" id="su">
++							<img src="image/33.jpg" alt="">
++							</a>
++							<p style="margin:20px auto"><img src="image/36.jpg" alt=""></p>
++							<div class="text">
++								<p>薇拉在摄影上所坚持DIY （DO IT YOURSELF）精神，适时地拓宽自己的风格范围。2013年夏，薇拉以广众先驱之名宣誓崭新风格主权。逐一发布全新摄影风格作品《时尚·态度》系列。</p>
++								<p>在我们看来，时尚是一种生活态度，是一种勇敢去想、勇敢去做的态度。时尚不是某个东西，时尚也不单纯是追逐某种流行趋势，它可能成为未来的人们普遍接受的东西，但在眼下，时尚绝对是少数人敢于尝试的冒险的生活方式。</p>
++								<p>我们崇尚独立。INDIE(独立)是一种态度，是一种对于摄影创作的态度，推而广之，它同样也是薇拉广大摄影师对于时尚取舍的态度，我们欣赏照片或多或少都是在慢慢形成自己的审美取向，形成一种不受外界干扰的独立态度，必要时CHECK OUR ATTITUDE,保持清醒且特立独行的头脑。淋漓尽致地展现薇拉摄影的《时尚·态度》</p>
++								<p>在《时尚·态度》的创作中，我们更加注重婚纱礼服的品质和细节。更加注重妆容的精致与和谐。一幅幅风尚婚纱杂志大片跃然而现。<a href=""><b style="color:#000;">Read more</b></a></p>
++							</div>
++						</li>
++					</ul>
++				</div>
++				<div class="sj">
++					<a href=""></a>
++				</div>
++			</div>
++		</div>
++	</div>
++	<!-- 访问区 -->
++	<div class="visit content-box">
++		<p class="clearfix">
++			<span class="fr">
++				<a>直击幸福现场查看 <span>《每日最新客片》</span></a>
++				<a>点击这里查看 <span>《客片大赏》</span></a>
++			</span>
++		</p>
++		<h1><b>6271541</b></h1>
++		<a href="">每日最新客片</a>
++		<a href="">薇拉摄影客片大赏</a>
++	</div>
++	<div class="pha clearfix content-box">
++		<p class="fl">访客观网指南：尊敬的访客您好！欢迎来到薇拉摄影官方网站《薇拉@漢》栏目。 您在这里会看到来自薇拉摄影的各种风格样片。
++		<a href="">您可以点击这里联系我们的客服</a>，告诉他/她您所心仪的风格，同时您也可以要求观看<a href="">每个风格样片所对应的客片。</a></p>
++		<div class="kj fr clearfix">
++			<a href="">点击联系qq客服</a>
++			<a href="">点击访问微博客服</a>
++		</div>
++	</div>
++	<div class="sj">
++		<a href=""></a>
++	</div>
++	<!-- 你心目中的薇拉 -->
++	<div class="your">
++		<a href=""><img src="img/page_you.jpg" alt=""></a>
++	</div>
++	<!-- footer区 -->
++	<div class="footer">
++		<div class="center-box content">
++			<div class="nav">
++			<img src="img/link.png" alt="">
++			</div>
++			<div class="list">
++				<ul class="clearfix">
++					<li>
++						<a href=""><img src="img/foot1.png" alt=""></a>
++						<ul class="list-in">
++							<li><a href="">薇拉摄影研创中心</a></li>
++							<li><a href="">薇拉摄影高端客户服务中心</a></li>
++							<li><a href="">薇拉皇后高端礼服馆</a></li>
++							<li><a href="">薇拉上善高端婚礼造型定制馆</a></li>
++						</ul>
++					</li>
++					<li>
++						<a href=""><img src="img/foot2.png" alt=""></a>
++						<ul class="list-in">
++							<li><a href="">薇拉品牌介绍</a></li>
++							<li><a href="">薇拉三镇十二店布局一览</a></li>
++							<li><a href=""><font color="#ffca00">薇拉摄影人才计划</font></a></li>
++							<li><a href="">了解你会爱上薇拉的理由</a></li>
++							<li><a href="">免责声明及法律条款</a></li>
++
++						</ul>
++					</li>
++					<li>
++						<a href=""><img src="img/foot3.png" alt=""></a>
++						<ul class="list-in">
++							<li><a href="">客片大赏</a></li>
++							<li><a href=""><font color="#ffca00">每日客片更新</font></a></li>
++							<li><a href="">薇拉@漢系列作品</a></li>
++							<li><a href="">时尚态度系列作品</a></li>
++							<li><a href="">高端定制系列作品</a></li>
++							<li><a href="">薇拉女神系列</a></li>
++						</ul>
++					</li>
++					<li>
++						<a href=""><img src="img/foot4.png" alt=""></a>
++						<ul class="list-in">
++							<li><a href="">最新新闻公告</a></li>
++							<li><a href="">活动进行时……</a></li>
++							<li><a href="">薇拉印花</a></li>
++							<li><a href="">WOW！MAGAZINE薇拉画报</a></li>
++						</ul>
++					</li>
++				</ul>
++			</div>
++			<div class="icon">
++				<a href="" style="background: url(img/footer_icon.png) 0 0 no-repeat;width: 120px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -140px 0 no-repeat;width: 110px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -280px 0 no-repeat;width: 110px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -400px 0 no-repeat;width: 140px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -550px 0 no-repeat;width: 160px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -720px 0 no-repeat;width: 110px;"></a>
++				<a href="" style="background: url(img/footer_icon.png) -860px 0 no-repeat;width: 150px;"></a>
++			</div>
++			<div class="last clearfix">
++				<div class="last-l fl">
++					<a href=""><img src="img/61.jpg" alt=""></a>
++					<a href=""><img src="img/62.jpg" alt=""></a>
++					<a href=""><img src="img/63.jpg" alt=""></a>
++					<a href=""><img src="img/64.jpg" alt=""></a>
++					<a href=""><img src="img/65.jpg" alt=""></a>
++				</div>
++				<div class="last-r fr">
++					<p>AVIVA 及 薇拉摄影均为注册商标，薇拉摄影网站界面设计及程序设计均以申请国家知识产权及著作权。未经允许不得转载抄袭，薇拉摄影对此保留法律诉讼的权利。</p>
++					<p>AVIVA AND AVIVA PHOTO ARE REGISTERED TRADEMARKS PHOTOGRAPHY, OUR WEBSITE INTERFACE DESIGN AND PROGRAMMING ARE APPLIED FOR NATIONAL INTELLECTUAL PROPERTY RIGHTS AND COPYRIGHTS. SHALL NOT BE REPRODUCED WITHOUT PERMISSION PLAGIARISM, WHICH WE KEEP THE RIGHT TO LEGAL PROCEEDINGS</p>
++					<p>视觉设计 & 网站建设 
++						<a href="">衍艺广告</a>
++						<a href=""><img src="img/logo03.png" alt=""></a>版权所有：武汉市汉阳区薇拉摄影店
++					</p>
++				</div>
++			</div>
++		</div>
++	</div>
++	<!-- 固定区 -->
++	<div class="fixed  clearfix">
++		<div class="ff fl">
++			<a><img src="img/btn06.png" alt="">
++			<span>400-0825-818</span></a>
++		</div>
++		<div class="fj fl">
++			<a href="">首页</a>
++			<a href="">拍摄风格选择</a>
++			<a href="">客片大赏</a>
++			<a href="">YOU</a>
++			<a href="">咨询档期</a>
++		</div>
++		<div class="fm fr">
++			<a href="" style="position: relative;top: -1px">
++				<img src="img/kf.gif" height="54">
++			</a>
++			<a href="">
++				<img src="img/back.png" alt="">
++			</a>
++		</div>
++	</div>
++</body>
++</html>
+\ No newline at end of file
+diff --git a/update.html b/update.html
+new file mode 100644
+index 0000000..dd51af3
+--- /dev/null
++++ b/update.html
+@@ -0,0 +1,147 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++	<meta charset="UTF-8">
++	<title>update</title>
++	<link rel="stylesheet" href="css/base.css" type="text/css">
++	<link rel="stylesheet" href="css/update.css" type="text/css">
++</head>
++<body>
++	<!-- 导航 -->
++	<div class="header">
++		<div class="center-box clearfix">
++			<h1 class="fl"><a href="">
++				<img src="img/logo01.jpg">
++			</a></h1>
++			<ul class="fl clearfix">
++				<li style="border-left: none;"><a href="page2.html">快速了解薇拉</a></li>
++				<li class="style-p"><a href="">拍摄风格选择</a>
++					<ul class="style-f">
++						<li><a href="special.html">薇拉@漢</a></li>
++						<li><a href="fasion.html">时尚•态度</a></li>
++						<li><a href="">高端定制</a></li>
++						<li><a href="">薇拉女神</a></li>
++					</ul>
++
++				</li>
++				<li class="style-p"><a href="">客片大赏</a>
++					<ul class="style-f">
++						<li><a href="update.html">每日更新</a></li>
++						<li><a href="guest.html">客片大赏</a></li>
++					</ul>
++				</li>
++				<li><a href="">资询档期</a></li>
++				<li><a href="">查找店面</a></li>
++				<li style="border-right: none;"><a href="">YOU</a></li>
++			</ul>
++			<div class="location">
++				<ul class="clearfix">
++					<li><a href="">武汉</a></li>
++					<li><a href="">深圳</a></li>
++					<li><a href="">三亚</a></li>
++				</ul>
++			</div>
++		</div>
++	</div>
++	<!-- 每日客片 -->
++	<div class="view content-box">
++		<div class="view-con">
++			<p style="line-height: 300px;">
++				<span><i>3</i>  座城</span>
++				<span><i>6</i>  年</span>
++				<span style="border-right: none;"><i>14</i>  店</span>
++				<span id="day">目前已有3680262人关注</span>
++				<span style="border-right:none;"><b>每日客片</b>持续更新</span>
++			</p>
++			<div class="number">
++				<b>28144</b>
++				<span>张</span>
++			</div>
++		</div>
++	</div>
++	<!-- nav区 -->
++	<div class="nav-b content-box">
++		<ul>
++			<li><a class="active" href="" style="border-bottom:8px solid #000; ">每日更新</a></li>
++			<li><a href="" style="border-bottom:8px solid #f00;">汉阳造总部</a></li>
++			<li><a href="" style="border-bottom:8px solid #0045b6;">楚河汉街时尚文化馆</a></li>
++			<li><a href="" style="border-bottom:8px solid #168444;">光谷概念馆</a></li>
++			<li style="border-right:none;"><a  href="" style="border-bottom:8px solid #ff9600; ">汉口领驭馆</a></li>
++		</ul>
++	</div>
++	<div class="time content-box clearfix">
++		<a href=""  class="fl">
++			<i>&lt&lt</i>
++			<span>前一天</span>
++		</a>
++		<a href="">
++			<b>2017 / 04 / 13</b>
++		</a>
++		<a href="" class="fr">
++			<span>后一天</span>
++			<i>&gt&gt</i>
++		</a>
++	</div>
++	<!-- 展示区 -->
++	<div class="pic content-box clearfix">
++		<div class="pic-l fl">
++			<div class="top">
++				<p class="clearfix">
++					<span class="fl"><img src="img3/11.jpg" alt=""></span>
++					<span class="fr"><img src="img3/12.jpg" alt=""></span>
++				</p>
++			</div>
++			<div class="show">
++				<p><img src="img3/13.jpg" alt=""></p>
++				<p><img src="img3/14.jpg" alt=""></p>
++				<p><img src="img3/15.jpg" alt=""></p>
++				<p><img src="img3/16.jpg" alt=""></p>
++				<p><img src="img3/17.jpg" alt=""></p>
++				<p><img src="img3/18.jpg" alt=""></p>
++				<p><img src="img3/19.jpg" alt=""></p>
++			</div>
++			<div class="top">
++				<p class="clearfix">
++					<span class="fl"><img src="img3/11.jpg" alt=""></span>
++					<span class="fr"><img src="img3/12.jpg" alt=""></span>
++				</p>
++			</div>
++			<div class="show">
++				<p><img src="img3/21.jpg" alt=""></p>
++				<p><img src="img3/22.jpg" alt=""></p>
++				<p><img src="img3/23.jpg" alt=""></p>
++				<p><img src="img3/24.jpg" alt=""></p>
++				<p><img src="img3/25.jpg" alt=""></p>
++				<p><img src="img3/26.jpg" alt=""></p>
++			</div>
++		</div>
++		<div class="pic-r fr">
++			<div class="rl">
++				<img src="img3/jj.png" alt="">
++			</div>
++			<div class="lj">
++				<a href="">薇拉摄影六周年庆</a>
++				<a href="">客片大赏</a>
++				<a href="">进店有礼</a>
++				<a href="">最新样片</a>
++				<a href="" style="border-right: none;">询问档期及拍摄</a>
++			</div>
++			<div class="kf" style="margin-top: 30px;">点击联系客服</div>
++			<div class="kf">点击访问微博联系客服</div>
++			<p>郑重声明：薇拉高端客户服务频道所展示的作品均来自真实客人定制照片，并经由客户本人同意在薇拉唯一官方网站WWW.IAVIVA.COM进行发表。未经允许不得转载或用于任何商业用途，违者必究！</p>
++			<div class="stage">
++				<img src="img/d1.jpg" alt="">
++				<img src="img/d2.jpg" alt="">
++				<img src="img/d3.jpg" alt="">
++				<img src="img/d4.jpg" alt="">
++				<img src="img/d5.jpg" alt="">
++				<img src="img/d6.jpg" alt="">
++				<img src="img/d7.jpg" alt="">
++				<img src="img/d8.jpg" alt="">
++				<img src="img/d9.jpg" alt="">
++				<img src="img/d10.jpg" alt="">
++			</div>
++		</div>
++	</div>
++</body>
++</html>
+\ No newline at end of file
+warning: LF will be replaced by CRLF in css/base.css.
+The file will have its original line endings in your working directory.
